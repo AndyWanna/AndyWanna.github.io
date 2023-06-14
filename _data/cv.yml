@@ -66,7 +66,7 @@
     - title: Cosine Accelerator on FPGA in Verilog
       year: Feb 2023 - Mar 2023
       description:
-    	  - Notably reduced output latency by implementing Cosine on an FPGA using CORDIC in SystemVerilog
+        - Notably reduced output latency by implementing Cosine on an FPGA using CORDIC in SystemVerilog
 	      - Designed customised hardware Floating-Point arithmetic blocks for further speed-ups
 
     - title: GymBro Embedded Raspberry PI Device
