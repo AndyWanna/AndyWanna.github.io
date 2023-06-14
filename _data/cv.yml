@@ -12,8 +12,9 @@
     - title: Masters of Engineering (Computer Engineering)
       Institution: Imperial College London, London, United Kingdom
       year: 2020 - 2024
-      sub-description:
+      description:
         - title: Year 1
+          contents:
           Grade: Frist Class Honors
           Relevant Modules:
             - Digital Arithmetic and Computer Architecture
