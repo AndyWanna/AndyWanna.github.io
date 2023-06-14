@@ -10,7 +10,7 @@
   type: time_table
   contents:
     - title: Masters of Engineering (Computer Engineering)
-      Institution: Imperial College London, London, United Kingdom
+      institution: Imperial College London, London, United Kingdom
       year: 2020 - 2024
       description:
         - title: Year 1
@@ -21,23 +21,26 @@
                 - Digital Arithmetic and Computer Architecture
                 - Programming
         - title: Year 2
-          Grade: Frist Class Honors
-          Relevant Modules:
-            - Instruction Architectures & Compilers
-            - Information Processing
-            - Software Systems
-            - Discrete Maths
+          contents:
+            - Frist Class Honors
+            - title : Relevant Modules
+              contents:
+                - Instruction Architectures & Compilers
+                - Information Processing
+                - Software Systems
+                - Discrete Maths
         - title: Year 3
-          Relevant Modules:
-            - Advanced Computer Architecture
-            - Digital System Design
-            - Digital Signal Processing
-            - Introduction to Machine Learning
-            - Operations Research
-            - Computer Vision
-            - Embedded Systems
+          - title : Relevant Modules
+              contents:
+                - Advanced Computer Architecture
+                - Digital System Design
+                - Digital Signal Processing
+                - Introduction to Machine Learning
+                - Operations Research
+                - Computer Vision
+                - Embedded Systems
     - title: International Baccalaureate
-      Institution: Dhahran High School, Dhahran, Saudi Arabia
+      institution: Dhahran High School, Dhahran, Saudi Arabia
       year: 2020
       description:
         - IB
