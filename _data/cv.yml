@@ -143,13 +143,13 @@
 - title: Skills, Strengths and Achievements
   type: nested_list
   contents:
-    -title: Proficient in C/C++, Python, Verilog/SystemVerilog
+    - title: Proficient in C/C++, Python, Verilog/SystemVerilog
     
-    -title: Experienced in JavaScript, Rust, AWS
+    - title: Experienced in JavaScript, Rust, AWS
     
-    -title: Adept in (written and spoken) English, French, and Arabic
+    - title: Adept in (written and spoken) English, French, and Arabic
 
-    -title: Completed Math and Further pure maths iGCSE, 2 years early
+    - title: Completed Math and Further pure maths iGCSE, 2 years early
 
-    -title: Achieved Best delegate at 4 international MUN conferences, chairing 4 further ones
+    - title: Achieved Best delegate at 4 international MUN conferences, chairing 4 further ones
 
