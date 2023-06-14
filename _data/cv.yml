@@ -12,7 +12,7 @@
     - title: Masters of Engineering (Computer Engineering)
       Institution: Imperial College London, London, United Kingdom
       year: 2020 - 2024
-      description:
+      sub-description:
         - title: Year 1
           Grade: Frist Class Honors
           Relevant Modules:
@@ -35,7 +35,7 @@
             - Computer Vision
             - Embedded Systems
     - title: International Baccalaureate
-      institution: Dhahran High School, Dhahran, Saudi Arabia
+      Institution: Dhahran High School, Dhahran, Saudi Arabia
       year: 2020
       description:
         - IB
