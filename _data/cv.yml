@@ -17,7 +17,7 @@
         - title: Year 1
           contents:
             - Frist Class Honors
-            - title : Relevant Modules
+            - title: Relevant Modules
               contents:
                 - Digital Arithmetic and Computer Architecture
                 - Programming
@@ -25,7 +25,7 @@
         - title: Year 2
           contents:
             - Frist Class Honors
-            - title : Relevant Modules
+            - title: Relevant Modules
               contents:
                 - Instruction Architectures & Compilers
                 - Information Processing
@@ -33,7 +33,7 @@
                 - Discrete Maths
 
         - title: Year 3
-          - title : Relevant Modules
+          - title: Relevant Modules
               contents:
                 - Advanced Computer Architecture
                 - Digital System Design
