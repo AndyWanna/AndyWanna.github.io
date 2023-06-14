@@ -10,18 +10,16 @@
   type: time_table
   contents:
     - title: Masters of Engineering (Computer Engineering)
-      institution: Imperial College London, London, United Kingdom
+      Institution: Imperial College London, London, United Kingdom
       year: 2020 - 2024
       description:
         - title: Year 1
-          Grade:
-            - Frist Class Honors
+          Grade: Frist Class Honors
           Relevant Modules:
             - Digital Arithmetic and Computer Architecture
             - Programming
         - title: Year 2
-          Grade:
-            - Frist Class Honors
+          Grade: Frist Class Honors
           Relevant Modules:
             - Instruction Architectures & Compilers
             - Information Processing
@@ -47,16 +45,17 @@
   type: time_table
   contents:
     - title: Research in Hardware Synthesis Optimization using E-Graphs
-      institution: circuits and Systems Group, Imperial College London
+      institution: Circuits and Systems Group, Imperial College London
       year: 2022 - Present
       description:
         - Created Rust software to compile common hardware expressions into an optimised representation for both area and latency
+    
     - title: Digital Design Industrial Placement at Quantum Motion
-      institution: California Institute of Technology, Pasadena, California, US
+      institution: Quantum Motion Technologies, London, United Kingdom
       year: 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Direct Digital Synthesis Modulator for High-Speed Qubit Feedback on an FPGA in HDL, using Vivado
+        - Program Raspberry Pi Pico to communicate using TCP/IP over ethernet connections in C using lwIP
 
     - title: Director
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
