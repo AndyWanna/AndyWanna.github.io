@@ -16,10 +16,10 @@
         - title: Year 1
           contents:
             - Frist Class Honors
-            - title: Relevant Modules
-              contents:
-                - Digital Arithmetic and Computer Architecture
-                - Programming
+            # - title: Relevant Modules
+            #   contents:
+            #     - Digital Arithmetic and Computer Architecture
+            #     - Programming
         - title: Year 2
           contents:
             - Frist Class Honors
