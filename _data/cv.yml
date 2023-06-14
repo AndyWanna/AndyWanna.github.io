@@ -69,51 +69,51 @@
     	  - Notably reduced output latency by implementing Cosine on an FPGA using CORDIC in SystemVerilog
 	      - Designed customised hardware Floating-Point arithmetic blocks for further speed-ups
 
-      - title: GymBro Embedded Raspberry PI Device
+    - title: GymBro Embedded Raspberry PI Device
       year: Jan 2023 - Mar 2023
       description:
           - Built a Network hosting an AWS server, a Raspberry Pi Client, and MySQL Database
           - Expanded functionality for multiple users, using Node.js and MySQL, ensuring scalability and security
 
-      - title: Digital Synthesiser in Embedded C
+    - title: Digital Synthesiser in Embedded C
       year: Jan 2023 - Mar 2023
       description:
           - Programmed an STM32 using Multi-Threading in Embedded C
           - Developed advanced functionality while maintaining thread safety, without affecting latency
 
-      - title: Maximised Energy Efficiency of a SuperScalar CPU by varying MicroArchitectural Parameters
+    - title: Maximised Energy Efficiency of a SuperScalar CPU by varying MicroArchitectural Parameters
       year: Nov 2022
       description:
           - Explored effect of Branch Predictors, Memory Hierarchy, and Instruction Parallelism
 
-      - title: Analogue and Digital IC Validation Intern at Quantum Motion
+    - title: Analogue and Digital IC Validation Intern at Quantum Motion
       year: Jul 2022 – Oct 2022
       description:
           - Automated Data analysis using Python scripting
           - Validated operation of Ring Oscillator hardware on silicon chips
           - Characterised properties of silicon across a range of chips, at room and cryogenic Temperatures (2K)
 
-      - title: Webapp for Mars Rover
+    - title: Webapp for Mars Rover
       year: May 2022 – Jul 2022
       description:
           - Backend using AWS and Node.js for communication between the web app, rover and MySQL database
 
-      - title: C to MIPS Assembly compiler in C++
+    - title: C to MIPS Assembly compiler in C++
       year: Feb 2022 – Mar 2022
 
-      - title: Automatic Scheduler in C++
+    - title: Automatic Scheduler in C++
       year: Jul 2022 – Oct 2022
       description:
           - Created software to allocate projects within a set schedule to improve time management
 
-      - title: Video game with FPGA hand-held controller
+    - title: Video game with FPGA hand-held controller
       year: Feb 2022 – Mar 2022
       description:
           - Instantiated NIOS 2 softcore CPU onto FPGA using Quartus
           - Programmed FPGA accelerometer functionality and low-level local processing and networking in C
           - Client side-communication and further data processing using Python
 
-      - title: MIPS 32-bit CPU in Verilog
+    - title: MIPS 32-bit CPU in Verilog
       year: Nov 2021 – Dec 2021
       description:
           MIPS 32-bit CPU written in Icarus Verilog to process standard instructions

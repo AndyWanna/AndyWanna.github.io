@@ -26,6 +26,5 @@ The start of this project involved relatively small hardware/software additionas
     On the left is the DE1-SoC FPGA board. On the right is bespoke digtal block, implementing the arbitrary vector function mentioned above. 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Check github repo
+
