@@ -16,10 +16,10 @@
         - title: Year 1
           contents:
             - Frist Class Honors
-            # - title: Relevant Modules
-            #   contents:
-            #     - Digital Arithmetic and Computer Architecture
-            #     - Programming
+            - title: Relevant Modules
+              contents:
+                - Digital Arithmetic and Computer Architecture
+                - Programming
         - title: Year 2
           contents:
             - Frist Class Honors
@@ -51,61 +51,102 @@
   contents:
     - title: Research in Hardware Synthesis Optimization using E-Graphs
       institution: Circuits and Systems Group, Imperial College London
-      year: 2022 - Present
+      year: Oct 2022 - Present
       description:
         - Created Rust software to compile common hardware expressions into an optimised representation for both area and latency
     
     - title: Digital Design Industrial Placement at Quantum Motion
       institution: Quantum Motion Technologies, London, United Kingdom
-      year: 2023
+      year: Apr 2023 - Oct 2023
       description:
         - Direct Digital Synthesis Modulator for High-Speed Qubit Feedback on an FPGA in HDL, using Vivado
+        - Interfacing with hardware 
         - Program Raspberry Pi Pico to communicate using TCP/IP over ethernet connections in C using lwIP
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Cosine Accelerator on FPGA in Verilog
+      year: Feb 2023 - Mar 2023
       description:
+    	  - Notably reduced output latency by implementing Cosine on an FPGA using CORDIC in SystemVerilog
+	      - Designed customised hardware Floating-Point arithmetic blocks for further speed-ups
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+      - title: GymBro Embedded Raspberry PI Device
+      year: Jan 2023 - Mar 2023
+      description:
+          - Built a Network hosting an AWS server, a Raspberry Pi Client, and MySQL Database
+          - Expanded functionality for multiple users, using Node.js and MySQL, ensuring scalability and security
 
-- title: Open Source Projects
+      - title: Digital Synthesiser in Embedded C
+      year: Jan 2023 - Mar 2023
+      description:
+          - Programmed an STM32 using Multi-Threading in Embedded C
+          - Developed advanced functionality while maintaining thread safety, without affecting latency
+
+      - title: Maximised Energy Efficiency of a SuperScalar CPU by varying MicroArchitectural Parameters
+      year: Nov 2022
+      description:
+          - Explored effect of Branch Predictors, Memory Hierarchy, and Instruction Parallelism
+
+      - title: Analogue and Digital IC Validation Intern at Quantum Motion
+      year: Jul 2022 – Oct 2022
+      description:
+          - Automated Data analysis using Python scripting
+          - Validated operation of Ring Oscillator hardware on silicon chips
+          - Characterised properties of silicon across a range of chips, at room and cryogenic Temperatures (2K)
+
+      - title: Webapp for Mars Rover
+      year: May 2022 – Jul 2022
+      description:
+          - Backend using AWS and Node.js for communication between the web app, rover and MySQL database
+
+      - title: C to MIPS Assembly compiler in C++
+      year: Feb 2022 – Mar 2022
+
+      - title: Automatic Scheduler in C++
+      year: Jul 2022 – Oct 2022
+      description:
+          - Created software to allocate projects within a set schedule to improve time management
+
+      - title: Video game with FPGA hand-held controller
+      year: Feb 2022 – Mar 2022
+      description:
+          - Instantiated NIOS 2 softcore CPU onto FPGA using Quartus
+          - Programmed FPGA accelerometer functionality and low-level local processing and networking in C
+          - Client side-communication and further data processing using Python
+
+      - title: MIPS 32-bit CPU in Verilog
+      year: Nov 2021 – Dec 2021
+      description:
+          MIPS 32-bit CPU written in Icarus Verilog to process standard instructions
+          Wrote testbenches to systematically test edge cases for each instruction
+
+- title: Leadership and Team Experiences
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Vice-President of Electrical Engineering Society
+    year: Oct 2022 – Present
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: Year 2 Academic Representative
+    year: Oct 2021 – Jun 2022
 
-- title: Academic Interests
+    - title: Fundraising Officer at Habitat for Humanity
+    year: Aug 2019 – Jun 2020
+
+    - title: President of Robotics Club
+    year: Aug 2018 – Jun 2019
+
+    - title: Founder of BISAK Tutoring Club
+    year: Sept 2016 – Jul 2018
+
+- title: Skills, Strengths and Achievements
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    -title: Proficient in C/C++, Python, Verilog/SystemVerilog
+    
+    -title: Experienced in JavaScript, Rust, AWS
+    
+    -title: Adept in (written and spoken) English, French, and Arabic
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    -title: Completed Math and Further pure maths iGCSE, 2 years early
+
+    -title: Achieved Best delegate at 4 international MUN conferences, chairing 4 further ones
+
