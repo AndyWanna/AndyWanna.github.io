@@ -126,19 +126,19 @@
   type: time_table
   contents:
     - title: Vice-President of Electrical Engineering Society
-    year: Oct 2022 – Present
+      year: Oct 2022 – Present
 
     - title: Year 2 Academic Representative
-    year: Oct 2021 – Jun 2022
+      year: Oct 2021 – Jun 2022
 
     - title: Fundraising Officer at Habitat for Humanity
-    year: Aug 2019 – Jun 2020
+      year: Aug 2019 – Jun 2020
 
     - title: President of Robotics Club
-    year: Aug 2018 – Jun 2019
+      year: Aug 2018 – Jun 2019
 
     - title: Founder of BISAK Tutoring Club
-    year: Sept 2016 – Jul 2018
+      year: Sept 2016 – Jul 2018
 
 - title: Skills, Strengths and Achievements
   type: nested_list
