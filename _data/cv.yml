@@ -18,17 +18,10 @@
             - Frist Class Honors
             - title: Relevant Modules
               contents:
-                - Digital Arithmetic and Computer Architecture
-                - Programming
+
         - title: Year 2
           contents:
             - Frist Class Honors
-            - title: Relevant Modules
-              contents:
-                - Instruction Architectures & Compilers
-                - Information Processing
-                - Software Systems
-                - Discrete Maths
         - title: Year 3
           contents:
             - Advanced Computer Architecture
@@ -38,7 +31,21 @@
             - Operations Research
             - Computer Vision
             - Embedded Systems
-
+        - title: Relevant Modules
+          contents:
+            - Advanced Computer Architecture
+            - Digital System Design
+            - Instruction Architectures & Compilers
+            - Digital Arithmetic and Computer Architecture
+            - Information Processing
+            - Digital Signal Processing
+            - Introduction to Machine Learning
+            - Computer Vision
+            - Operations Research
+            - Embedded Systems
+            - Software Systems
+            - Discrete Maths
+            - Programming
     - title: International Baccalaureate
       institution: Dhahran High School, Dhahran, Saudi Arabia
       year: 2020
