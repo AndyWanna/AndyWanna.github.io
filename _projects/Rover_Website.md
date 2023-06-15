@@ -3,7 +3,6 @@ layout: page
 title: Mars Rover
 description: a project that redirects to another website
 img: assets/img/Rangerover/rover.jpeg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---
