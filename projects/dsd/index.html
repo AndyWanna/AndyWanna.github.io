@@ -73,7 +73,7 @@
 
               <!-- About -->
               <li class="nav-item ">
-                <a class="nav-link" href="/">about</a>
+                <a class="nav-link" href="/">About</a>
               </li>
               
               <!-- Blog -->
@@ -89,7 +89,7 @@
                 <a class="nav-link" href="/repositories/">repositories</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/cv/">cv</a>
+                <a class="nav-link" href="/cv/">CV</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -130,6 +130,13 @@
 On a DE1-SoC FPGA board.</p>
 
 <p>The start of this project involved relatively small hardware/software additionas and optimisation. The final steps resulted in major latency reduction by adding a custom instruction to the NIOSII softcore processor via a bespoke digital block, including a CORDIC function in hardware.</p>
+
+<p>Here are some of the optimisation that resulted in the largest speed gains:</p>
+<ul>
+  <li>Custom CORDIC hardware block with optimised iterations/wordlength</li>
+  <li>Specialised Floating-Point power of 2 divider</li>
+  <li>Optimum instruction and data cache sizes</li>
+</ul>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -172,8 +179,6 @@ On a DE1-SoC FPGA board.</p>
 <div class="caption">
     Left: The DE1-SoC FPGA board. Right: Bespoke digtal block, implementing the arbitrary vector function mentioned above. 
 </div>
-
-<p>Check github repo</p>
 
 
           </article>
