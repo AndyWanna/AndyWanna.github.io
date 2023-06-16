@@ -39,7 +39,7 @@ The Command page includes:
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <video>
-            {% include video.html path="assests/video/rr_detect.mp4"}
+            {% include video.html path="assests/video/rr_detect.mp4" %}
         </video>
     </div>
 </div>
