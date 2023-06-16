@@ -3,7 +3,7 @@ layout: page
 title: Machine and Deep Learning Projects
 description: Predicting House Value - NN Regression Project, Medical MRI Scans - CNN Computer Vision Project
 img: assets/img/ML/viz.jpg
-importance: 2
+importance: 3
 category: Software
 ---
 

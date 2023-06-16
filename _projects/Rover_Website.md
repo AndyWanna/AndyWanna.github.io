@@ -3,7 +3,7 @@ layout: page
 title: Mars Rover
 description: a project that redirects to another website
 img: assets/img/RangeRover/rover.jpeg
-importance: 2
+importance: 1
 category: Software
 ---
 This was our 2nd year End-Of-Year project. The goal was to design a fully functioning autonomous rover in a group of 7. I was in charge of the command module. This comprised of muliple components:

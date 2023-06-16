@@ -2,8 +2,8 @@
 layout: page
 title: Digital Synth
 description: Digital Synth using Arm M4
-img: assets/img/synth.png
-importance: 2
+img: assets/img/Synth/synth.png
+importance: 4
 category: Software
 ---
 

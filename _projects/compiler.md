@@ -2,7 +2,8 @@
 layout: page
 title: C Compiler
 description: C to MIPS Compiler in C++
-importance: 1
+img: assets/img/Compiler/cmpl1.png #FPGA IMAGE
+importance: 2
 category: Hardware
 ---
 

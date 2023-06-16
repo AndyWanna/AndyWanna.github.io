@@ -3,7 +3,7 @@ layout: page
 title: MIPS 32-bit CPU
 description: Simple 32-Bit MIPS CPU in Verilog
 img: assets/img/MIPS/MIPS.png #FPGA IMAGE
-importance: 1
+importance: 3
 category: Hardware
 ---
 
