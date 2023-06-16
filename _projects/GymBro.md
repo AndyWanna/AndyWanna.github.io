@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Gymbro - Embedded System
+description: Embedded Sytem integrating Raspberry Pi and AWS server
+img: assets/img/GymBro/Device.jpg
 importance: 2
 category: work
 ---
@@ -29,13 +29,16 @@ Screenshots from the Webapp can be seen below
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/GymBro/Start.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/GymBro/history.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/GymBro/Wrkt1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/GymBro/Wrkt2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>    
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/GymBro/Start.webp" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
