@@ -3,8 +3,8 @@ layout: page
 title: Simon Says Battle Royale - FPGA Video Game
 description: Multiplayer Video Game using FPGA and input controller
 img: assets/img/SSays/ss-screen.jfif
-importance: 3
-category: fun
+importance: 1
+category: Hardware
 ---
 
 This project was a simple multiplayer "Battle Royale" style video game intended to make physiotherapy and recovery entertaining for young children. The video-game was developed in a group of 6 and I mainly contributed to developing the FPGA as the input device.

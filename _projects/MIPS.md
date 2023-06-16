@@ -4,7 +4,7 @@ title: MIPS 32-bit CPU
 description: Simple 32-Bit MIPS CPU in Verilog
 img: assets/img/MIPS/MIPS.png #FPGA IMAGE
 importance: 1
-category: work
+category: Hardware
 ---
 
 This was a group project with 6 colleagues. It comprised of designing the fundmanetal digital blocks to make a 5-stage MIPS 32-bit CPU and creating testbenches to verify the operation of the CPU.
@@ -23,5 +23,3 @@ I persoanlly was responsible for designing the Instruction Decode, Register File
 <div class="caption">
     Left: Designed MIPS Block Diagram. Right: Testbench Methodology.
 </div>
-
-Check github repo

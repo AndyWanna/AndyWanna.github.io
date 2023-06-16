@@ -2,8 +2,8 @@
 layout: page
 title: C Compiler
 description: C to MIPS Compiler in C++
-importance: 3
-category: fun
+importance: 1
+category: Hardware
 ---
 
 The goal of this project was to develop a C to MIPS Compiler in C++, in a pair. Our compiler is able to handle a variety of compilcated C statements:
@@ -29,5 +29,3 @@ Some of these classes and methods are highlighted in the images below.
 <div class="caption">
     Left: C Statements. Middle: C Unary Operators. Right: C Declerators.
 </div>
-
-Check Repo

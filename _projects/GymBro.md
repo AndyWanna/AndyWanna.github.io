@@ -4,7 +4,7 @@ title: Gymbro - Embedded System
 description: Embedded Sytem integrating Raspberry Pi and AWS server
 img: assets/img/GymBro/Device.jpg
 importance: 2
-category: work
+category: Software
 ---
 
 This project focused on using embedded systems to create a commericial product. Our product, Gymbri, is an integrated product and webapp that acts your personal gym assistant. It keeps track of your overall workouts and progress over time but further track your reps and rest time for each excersise while at the gym. 
@@ -53,5 +53,3 @@ Screenshots from the Webapp can be seen below
 <div class="caption">
     Gymbro advertisement video
 </div>
-
-Check da repo.

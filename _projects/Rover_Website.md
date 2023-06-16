@@ -3,8 +3,8 @@ layout: page
 title: Mars Rover
 description: a project that redirects to another website
 img: assets/img/RangeRover/rover.jpeg
-importance: 3
-category: work
+importance: 2
+category: Software
 ---
 This was our 2nd year End-Of-Year project. The goal was to design a fully functioning autonomous rover in a group of 7. I was in charge of the command module. This comprised of muliple components:
 - AWS and Node.JS Back End for the rover to recieve commands and communicate data back to the user

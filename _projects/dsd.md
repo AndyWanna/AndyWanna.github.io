@@ -4,7 +4,7 @@ title: Digital Hardware Design - FPGA
 description: Cosine Accelerator on an FPGA in Verilog
 img: assets/img/DSD/de1.jpg #FPGA IMAGE
 importance: 1
-category: work
+category: Hardware
 ---
 
 This project involved taking subsequent steps to accerlate an arbitrary vector function:
@@ -12,6 +12,11 @@ $$ f(x) = \sum_{i=1}^{N} 0.5 \times x_i + x_i^2 \cos(\frac{x_i - 128}{128})$$ \\
 On a DE1-SoC FPGA board.
 
 The start of this project involved relatively small hardware/software additionas and optimisation. The final steps resulted in major latency reduction by adding a custom instruction to the NIOSII softcore processor via a bespoke digital block, including a CORDIC function in hardware. 
+
+Here are some of the optimisation that resulted in the largest speed gains:
+- Custom CORDIC hardware block with optimised iterations/wordlength
+- Specialised Floating-Point power of 2 divider
+- Optimum instruction and data cache sizes
 
 
 <div class="row justify-content-sm-center">
@@ -25,6 +30,4 @@ The start of this project involved relatively small hardware/software additionas
 <div class="caption">
     Left: The DE1-SoC FPGA board. Right: Bespoke digtal block, implementing the arbitrary vector function mentioned above. 
 </div>
-
-Check github repo
 
