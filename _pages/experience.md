@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Experience
-permalink: /projects/
+permalink: /experience/
 description: Growing resume of techincal experiences
 nav: true
 nav_order: 1
