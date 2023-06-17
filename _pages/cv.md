@@ -4,5 +4,5 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-cv_pdf: assets/pdf/Andy's CV _hardware.pdf
+cv_pdf: assets/pdf/Andy_CV_hardware.pdf
 ---
