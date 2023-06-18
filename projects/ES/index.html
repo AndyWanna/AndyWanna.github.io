@@ -38,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://andywanna.github.io/projects/ES-Synth/">
+    <link rel="canonical" href="https://andywanna.github.io/projects/ES/">
 
     <!-- Dark Mode -->
     
@@ -121,14 +121,15 @@
           </header>
 
           <article>
-            <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This project mainly focused on low-level multithreaded programming in Embedded C to create a digital synthesizer. In our group of 4 I focused mainly on creating concurrent threads and ISR functions to enable increasing capabilities of the digital synthesizer. Some of the key functionality I implemented include:
+            <p>This project mainly focused on low-level multithreaded programming in Embedded C to create a digital synthesizer. In our group of 4 I focused mainly on creating concurrent threads and ISR functions to enable increasing capabilities of the digital synthesizer. Some of the key functionality I implemented include:</p>
 
-- Polyphony across multiple keyboards (compounding multiple key frequencies)
-- Modular keyboards with Auto Detect (enable connection/disconnection of modules in any order or time)
-- Stereo Sound (Sound is played across all available speakers) 
+<ul>
+  <li>Polyphony across multiple keyboards (compounding multiple key frequencies)</li>
+  <li>Modular keyboards with Auto Detect (enable connection/disconnection of modules in any order or time)</li>
+  <li>Stereo Sound (Sound is played across all available speakers)</li>
+</ul>
 
-A key part of this project was ensuring thread safety and that each thread meets it's required deadlines. To verify this I implemented a configurable test suite using C directives
-</code></pre></div></div>
+<p>A key part of this project was ensuring thread safety and that each thread meets it’s required deadlines. To verify this I implemented a configurable test suite using C directives</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -154,13 +155,13 @@ A key part of this project was ensuring thread safety and that each thread meets
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/threads-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/threads-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/threads-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Synth/threads-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Synth/threads-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Synth/threads-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/threads.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/Synth/threads.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -171,6 +172,7 @@ A key part of this project was ensuring thread safety and that each thread meets
 <div class="caption">
     Left: Single synth module. Right: Thread and ISR functions.
 </div>
+
 
           </article>
 
