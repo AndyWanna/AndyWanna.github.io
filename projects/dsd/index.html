@@ -121,16 +121,16 @@
           </header>
 
           <article>
-            <p>This project involved taking subsequent steps to accerlate an arbitrary vector function:
+            <p>This project involved taking subsequent steps to accelerate an arbitrary vector function:
 \(f(x) = \sum_{i=1}^{N} 0.5 \times x_i + x_i^2 \cos(\frac{x_i - 128}{128})\) <br>
 On a DE1-SoC FPGA board.</p>
 
-<p>The start of this project involved relatively small hardware/software additions and optimisation. The final steps resulted in major latency reduction by adding a custom instruction to the NIOSII softcore processor via a bespoke digital block, including a CORDIC function in hardware.</p>
+<p>The start of this project involved relatively small hardware/software additions and optimization. The final steps resulted in major latency reduction by adding a custom instruction to the NIOS-II soft-core processor via a bespoke digital block, including a CORDIC function in hardware.</p>
 
-<p>Here are some of the optimisation that resulted in the largest speed gains:</p>
+<p>Here are some of the optimization that resulted in the largest speed gains:</p>
 <ul>
-  <li>Custom CORDIC hardware block with optimised iterations/wordlength</li>
-  <li>Specialised Floating-Point power of 2 divider</li>
+  <li>Custom CORDIC hardware block with optimized iterations/word-length</li>
+  <li>Specialized Floating-Point power of 2 divider</li>
   <li>Optimum instruction and data cache sizes</li>
 </ul>
 
@@ -173,7 +173,7 @@ On a DE1-SoC FPGA board.</p>
     </div>
 </div>
 <div class="caption">
-    Left: The DE1-SoC FPGA board. Right: Bespoke digtal block, implementing the arbitrary vector function mentioned above. 
+    Left: The DE1-SoC FPGA board. Right: Bespoke digital block, implementing the arbitrary vector function mentioned above. 
 </div>
 
 
