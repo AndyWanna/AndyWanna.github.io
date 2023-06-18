@@ -6,10 +6,10 @@ img: assets/img/RangeRover/rover.jpeg
 importance: 1
 category: Software
 ---
-This was our 2nd year End-Of-Year project. The goal was to design a fully functioning autonomous rover in a group of 7. I was in charge of the command module. This comprised of muliple components:
-- AWS and Node.JS Back End for the rover to recieve commands and communicate data back to the user
+This was our 2nd year End-Of-Year project. The goal was to design a fully functioning autonomous rover in a group of 7. I was in charge of the command module. This comprised of multiple components:
+- AWS and Node.JS Back End for the rover to receive commands and communicate data back to the user
 - HTML/CSS/JS Front End for the user to interact with the rover
-- MySQL Data Base to store and rover data such as postion and detected objects.
+- MySQL Data Base to store and rover data such as position and detected objects.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -30,7 +30,7 @@ The Command page includes:
 - Live Map:
     - Tracks rover's live position
     - Displays "aliens" and obstacles the rover detects
-    - Can be used to select a co-oridnate for the rover to move to in manual mode
+    - Can be used to select a coordinate for the rover to move to in manual mode
 - Live Battery Information
 
 <div class="row">

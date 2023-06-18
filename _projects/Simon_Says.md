@@ -8,10 +8,10 @@ category: Hardware
 ---
 
 This project was a simple multiplayer "Battle Royale" style video game intended to make physiotherapy and physical recovery entertaining for young children. The video-game was developed in a group of 6 and I mainly contributed to developing the FPGA as the input device.
-Input/Output peripherlas on the FPGA are used to interact with the video game. Multiplayer is impemented via a centralised server with FPGA interfacing with a local python client connected to the server. 
+Input/Output peripherals on the FPGA are used to interact with the video game. Multiplayer is implemented via a centralized server with FPGA interfacing with a local python client connected to the server. 
 
 The FPGA Controller has the following functionality:
-- Real-Time transmitting an recieving of data between FPGA and Client PC
+- Real-Time transmitting an receiving of data between FPGA and Client PC
 - Accelerometer to detect x/y/z translational motion
 - Low Pass FIR filtering of accelerometer data
 - Buttons, Switches and 7-Segment display as i/o peripherals 

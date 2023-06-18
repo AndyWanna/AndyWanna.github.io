@@ -7,7 +7,7 @@ importance: 2
 category: Hardware
 ---
 
-The goal of this project was to develop a C to MIPS Compiler in C++, in a pair. Our compiler is able to handle a variety of compilcated C statements:
+The goal of this project was to develop a C to MIPS Compiler in C++, in a pair. Our compiler is able to handle a variety of complicated C statements:
 - Arrays
 - Pointers
 - Loops

@@ -7,14 +7,14 @@ importance: 2
 category: Software
 ---
 
-This project focused on using embedded systems to create a commericial product. Our product, Gymbri, is an integrated product and webapp that acts your personal gym assistant. It keeps track of your overall workouts and progress over time but further track your reps and rest time for each excersise while at the gym. 
+This project focused on using embedded systems to create a commercial product. Our product, Gymbro, is an integrated product and webapp that acts your personal gym assistant. It keeps track of your overall workouts and progress over time but further track your reps and rest time for each exercise while at the gym. 
 
- The main local processor was a Raspberry Pi Pico running python. The device was communicating with an AWS Server running Node JS to handle the information provided by the deivces and users. I focused on creating the server backend and integrating the full system with the Raspberry Pi. My goal was ot create a server that could easily handle multiple users and devices interacting wiht the webapp. The technologies used to achieve this were Passport.JS and a seperate MySQL database. The functionality of the server includes:
+ The main local processor was a Raspberry Pi Pico running python. The device was communicating with an AWS Server running Node JS to handle the information provided by the devices and users. I focused on creating the server backend and integrating the full system with the Raspberry Pi. My goal was ot create a server that could easily handle multiple users and devices interacting with the webapp. The technologies used to achieve this were Passport.JS and a separate MySQL database. The functionality of the server includes:
 
-- AWS servre handles multiple concurrent users and devices.
+- AWS server handles multiple concurrent users and devices.
 - User accounts and secure authentication
 - Accelerometer to automatically count repetitions in real time
-- Keep track of workout and excersise history and progress
+- Keep track of workout and exercise history and progress
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">

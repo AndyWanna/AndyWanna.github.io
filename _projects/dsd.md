@@ -7,15 +7,15 @@ importance: 1
 category: Hardware
 ---
 
-This project involved taking subsequent steps to accerlate an arbitrary vector function:
+This project involved taking subsequent steps to accelerate an arbitrary vector function:
 $$ f(x) = \sum_{i=1}^{N} 0.5 \times x_i + x_i^2 \cos(\frac{x_i - 128}{128})$$ \\
 On a DE1-SoC FPGA board.
 
-The start of this project involved relatively small hardware/software additions and optimisation. The final steps resulted in major latency reduction by adding a custom instruction to the NIOSII softcore processor via a bespoke digital block, including a CORDIC function in hardware. 
+The start of this project involved relatively small hardware/software additions and optimization. The final steps resulted in major latency reduction by adding a custom instruction to the NIOS-II soft-core processor via a bespoke digital block, including a CORDIC function in hardware. 
 
-Here are some of the optimisation that resulted in the largest speed gains:
-- Custom CORDIC hardware block with optimised iterations/wordlength
-- Specialised Floating-Point power of 2 divider
+Here are some of the optimization that resulted in the largest speed gains:
+- Custom CORDIC hardware block with optimized iterations/word-length
+- Specialized Floating-Point power of 2 divider
 - Optimum instruction and data cache sizes
 
 
@@ -28,6 +28,6 @@ Here are some of the optimisation that resulted in the largest speed gains:
     </div>
 </div>
 <div class="caption">
-    Left: The DE1-SoC FPGA board. Right: Bespoke digtal block, implementing the arbitrary vector function mentioned above. 
+    Left: The DE1-SoC FPGA board. Right: Bespoke digital block, implementing the arbitrary vector function mentioned above. 
 </div>
 

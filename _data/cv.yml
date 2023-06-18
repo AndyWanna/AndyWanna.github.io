@@ -15,10 +15,10 @@
       description:
         - title: Year 1
           contents:
-            - Frist Class Honors
+            - First Class Honors
         - title: Year 2
           contents:
-            - Frist Class Honors
+            - First Class Honors
         - title: Year 3
           contents:
             - First Class Honors
@@ -51,8 +51,8 @@
       institution: Circuits and Systems Group, Imperial College London
       year: Oct 2022 - Present
       description:
-        - Created Rust tool to compile common hardware expressions into an optimised representation for both area and latency
-        - Demonstrated up to a 69% latency reduction in squarinq circuits
+        - Created Rust tool to compile common hardware expressions into an optimized representation for both area and latency
+        - Demonstrated up to a 69% latency reduction in squaring circuits
     
     - title: Digital Design Industrial Placement at Quantum Motion
       institution: Quantum Motion Technologies, London, United Kingdom
@@ -66,7 +66,7 @@
       year: Feb 2023 - Mar 2023
       description:
       - Notably reduced output latency by implementing Cosine on an FPGA using CORDIC in SystemVerilog
-      - Designed customised hardware Floating-Point arithmetic blocks for further speed-ups
+      - Designed customized hardware Floating-Point arithmetic blocks for further speed-ups
 
     - title: GymBro Embedded Raspberry PI Device
       year: Jan 2023 - Mar 2023
@@ -74,13 +74,13 @@
         - Built a Network hosting an AWS server, a Raspberry Pi Client, and MySQL Database
         - Expanded functionality for multiple users, using Node.js and MySQL, ensuring scalability and security
 
-    - title: Digital Synthesiser in Embedded C
+    - title: Digital Synthesizer in Embedded C
       year: Jan 2023 - Mar 2023
       description:
         - Programmed an STM32 using Multi-Threading in Embedded C
         - Developed advanced functionality while maintaining thread safety, without affecting latency
 
-    - title: Maximised Energy Efficiency of a SuperScalar CPU by varying MicroArchitectural Parameters
+    - title: Maximized Energy Efficiency of a SuperScalar CPU by varying MicroArchitectural Parameters
       year: Nov 2022
       description:
         - Explored effect of Branch Predictors, Memory Hierarchy, and Instruction Parallelism on the overall energy usage of a CPU
@@ -91,15 +91,15 @@
         - Automated Data analysis using Python scripting
         - Devised correlation between ring oscillator results and silicon transistors
         - Validated operation of ring oscillator hardware on silicon chips
-        - Characterised properties of silicon across a range of chips, at room and cryogenic Temperatures (2K)
-        - Designed low-noise, wide range (1na-10ma), wideband (100MHz) current sensor schematic and PCB
+        - Characterized properties of silicon across a range of chips, at room and cryogenic Temperatures (2K)
+        - Designed low-noise, wide range (1na-10ma), wide-band (100MHz) current sensor schematic and PCB
 
     - title: Webapp for Mars Rover
       year: May 2022 – Jul 2022
       description:
         - Backend using AWS and Node.js for web-app (rover command) 
-        - Created MySQL database to process infromation provided from rover
-        - Designed network architecture to handle commmunication between web-app server, rover, and MySQL database 
+        - Created MySQL database to process information provided from rover
+        - Designed network architecture to handle communication between web-app server, rover, and MySQL database 
 
     - title: C to MIPS Assembly compiler in C++
       year: Feb 2022 – Mar 2022
@@ -115,7 +115,7 @@
     - title: Video game with FPGA hand-held controller
       year: Feb 2022 – Mar 2022
       description:
-        - Instantiated NIOS 2 softcore CPU onto FPGA using Quartus
+        - Instantiated NIOS-II soft-core CPU onto FPGA using Quartus
         - Programmed FPGA accelerometer functionality and low-level local processing and networking in C
         - Client side-communication and further data processing using Python
 
@@ -123,7 +123,7 @@
       year: Nov 2021 – Dec 2021
       description:
         - MIPS 32-bit CPU written in Icarus Verilog to process standard instructions
-        - Wrote testbenches to systematically test edge cases for each instruction
+        - Wrote test-benches to systematically test edge cases for each instruction
 
 - title: Leadership and Team Experiences
   type: time_table
