@@ -51,7 +51,8 @@
       institution: Circuits and Systems Group, Imperial College London
       year: Oct 2022 - Present
       description:
-        - Created Rust software to compile common hardware expressions into an optimised representation for both area and latency
+        - Created Rust tool to compile common hardware expressions into an optimised representation for both area and latency
+        - Demonstrated up to a 69% latency reduction in squarin circuits
     
     - title: Digital Design Industrial Placement at Quantum Motion
       institution: Quantum Motion Technologies, London, United Kingdom
@@ -82,19 +83,22 @@
     - title: Maximised Energy Efficiency of a SuperScalar CPU by varying MicroArchitectural Parameters
       year: Nov 2022
       description:
-        - Explored effect of Branch Predictors, Memory Hierarchy, and Instruction Parallelism
+        - Explored effect of Branch Predictors, Memory Hierarchy, and Instruction Parallelism on the overall energy usage of a CPU
 
     - title: Analogue and Digital IC Validation Intern at Quantum Motion
       year: Jul 2022 – Oct 2022
       description:
         - Automated Data analysis using Python scripting
-        - Validated operation of Ring Oscillator hardware on silicon chips
+        - Devised correlation between ring oscillator results and silicon transistors
+        - Validated operation of ring oscillator hardware on silicon chips
         - Characterised properties of silicon across a range of chips, at room and cryogenic Temperatures (2K)
 
     - title: Webapp for Mars Rover
       year: May 2022 – Jul 2022
       description:
-        - Backend using AWS and Node.js for communication between the web app, rover and MySQL database
+        - Backend using AWS and Node.js for web-app (rover command) 
+        - Created MySQL database to process infromation provided from rover
+        - Designed network architecture to handle commmunication between web-app server, rover, and MySQL database 
 
     - title: C to MIPS Assembly compiler in C++
       year: Feb 2022 – Mar 2022

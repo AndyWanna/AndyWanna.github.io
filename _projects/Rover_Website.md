@@ -39,7 +39,7 @@ The Command page includes:
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <!-- <video> -->
-        <iframe src="https://youtube.com/shorts/aE_GtGLtH0A?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://youtube.com/shorts/aE_GtGLtH0A" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <!-- </video> -->
     </div>
 </div>
