@@ -38,9 +38,9 @@ The Command page includes:
         {% include figure.html path="assets/img/RangeRover/rover.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <video>
+        <!-- <video> -->
             {% include video.html path="assests/video/rr_detect.mp4" %}
-        </video>
+        <!-- </video> -->
     </div>
 </div>
 <div class="caption">

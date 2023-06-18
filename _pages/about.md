@@ -19,7 +19,7 @@ profile:
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, I go by Andy Wanna and I'm currently enrolled as a third-year EIE MEng student at Imperial College London. This website serves as a platform to showcase my technical projects and experiences throughout my time at university. I possess a strong passion for hardware engineering, specifically in the areas of FPGA, CPU, GPU, as well as AI, with a focus on Machine Learning/Deep Learning, and technology related to Quantum Computing. You can explore these interests in detail through the various projects, work experience, and CV pages. My ultimate career objective is to contribute to the global endeavor of pushing the boundaries of current technology by offering unique, creative, and innovative ideas and solutions. 
+Hello, I am Andy Wanna and I'm currently enrolled as a third-year EIE MEng student at Imperial College London. This website serves as a platform to showcase my technical projects and experiences throughout my time at university. I possess a strong passion for hardware engineering, specifically in the areas of FPGA, CPU, GPU, as well as AI, with a focus on Machine Learning/Deep Learning, and technology related to Quantum Computing. You can explore these interests in detail through the various projects, work experience, and CV pages. My ultimate career objective is to contribute to the global endeavor of pushing the boundaries of current technology by offering unique, creative, and innovative ideas and solutions. 
 
 More broadly, some of my hobbies include Formula 1, video games and keeping active. More detailed information can be found around the rest of the webpage and feel free to contact via any of the links below.
 
