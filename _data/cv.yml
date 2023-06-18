@@ -52,14 +52,14 @@
       year: Oct 2022 - Present
       description:
         - Created Rust tool to compile common hardware expressions into an optimised representation for both area and latency
-        - Demonstrated up to a 69% latency reduction in squarin circuits
+        - Demonstrated up to a 69% latency reduction in squarinq circuits
     
     - title: Digital Design Industrial Placement at Quantum Motion
       institution: Quantum Motion Technologies, London, United Kingdom
       year: Apr 2023 - Oct 2023
       description:
       - Direct Digital Synthesis Modulator for High-Speed Qubit Feedback on an FPGA in HDL, using Vivado
-      - Interfacing with hardware 
+      - Creating software library to interface with FPGA hardware with PYNQ python library
       - Program Raspberry Pi Pico to communicate using TCP/IP over ethernet connections in C using lwIP
 
     - title: Cosine Accelerator on FPGA in Verilog
@@ -92,6 +92,7 @@
         - Devised correlation between ring oscillator results and silicon transistors
         - Validated operation of ring oscillator hardware on silicon chips
         - Characterised properties of silicon across a range of chips, at room and cryogenic Temperatures (2K)
+        - Designed low-noise, wide range (1na-10ma), wideband (100MHz) current sensor schematic and PCB
 
     - title: Webapp for Mars Rover
       year: May 2022 – Jul 2022
@@ -147,7 +148,7 @@
   contents:
     - title: Proficient in C/C++, Python, Verilog/SystemVerilog
     
-    - title: Experienced in JavaScript, Rust, AWS
+    - title: Experienced in JavaScript, Rust, AWS, PyTorch
     
     - title: Adept in (written and spoken) English, French, and Arabic
 
