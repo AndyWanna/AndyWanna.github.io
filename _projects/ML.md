@@ -20,7 +20,7 @@ The second project was a computer vision task and required implementing a U-Net 
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <video>
-            {% include figure.html path="assets/img/ML/ML-CW2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/ML/ML_CW2.png" title="example image" class="img-fluid rounded z-depth-1" %}
         </video>
     </div>
 </div>
