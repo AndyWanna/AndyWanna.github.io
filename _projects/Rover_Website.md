@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mars Rover
-description: a project that redirects to another website
+description: Autonomous Mars Rover 
 img: assets/img/RangeRover/rover.jpeg
 importance: 1
 category: Software
