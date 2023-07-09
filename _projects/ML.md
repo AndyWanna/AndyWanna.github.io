@@ -9,9 +9,9 @@ category: Software
 
 Here are both my ML/DL projects.
 
-The first was creating a classic Neural Network with PyTorch to predict the value of a house in San Francisco, based on its input formation. This involved data-preprocessing, constructing the NN in PyTorch and evaluating hyper parameters such as network shape and gradient descent algorithm via k-cross-folds hyperparameter tuning. 
+The first was creating a classic Neural Network with PyTorch to predict the value of a house in San Francisco, based on its input data. This involved data-preprocessing, constructing the NN in PyTorch and evaluating hyper parameters such as network shape and gradient descent algorithm via k-cross-folds hyperparameter tuning. 
 
-The second project was a computer vision task and required implementing a U-Net Convolutional Neural Network architecture in PyTorch, to automatically detect potential cancerous regions in brain MRI scan. This project focused more on implementing the convolutional pass-through and feedback architecture, along with using performance metrics to accurately evaluate the quality of our model.
+The second project was a computer vision task and required implementing a U-Net Convolutional Neural Network architecture in PyTorch, to automatically detect potential cancerous regions in brain MRI scan. This project focused more on implementing the convolutional pass-through and feedback architecture, along with using performance metrics to accurately evaluate the quality of the model.
 
 
 <div class="row justify-content-sm-center">

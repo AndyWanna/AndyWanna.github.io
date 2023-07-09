@@ -7,13 +7,13 @@ importance: 4
 category: Software
 ---
 
-This project mainly focused on low-level multithreaded programming in Embedded C to create a digital synthesizer. In our group of 4 I focused mainly on creating concurrent threads and ISR functions to enable increasing capabilities of the digital synthesizer. Some of the key functionality I implemented include:
+This project mainly focused on low-level multithreaded programming in Embedded C to create a digital synthesizer. In our group of 4 people, I focused mainly on creating concurrent threads and ISR functions to enable increasing capabilities of the digital synthesizer. Some of the key functionalities I implemented include:
 
 - Polyphony across multiple keyboards (compounding multiple key frequencies)
 - Modular keyboards with Auto Detect (enable connection/disconnection of modules in any order or time)
 - Stereo Sound (Sound is played across all available speakers) 
 
-A key part of this project was ensuring thread safety and that each thread meets it's required deadlines. To verify this I implemented a configurable test suite using C directives
+A key part of this project was ensuring thread safety and that each thread meets it's required deadlines. To verify this I implemented a configurable test suite using C directives.
 
 
 <div class="row">

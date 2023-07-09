@@ -19,26 +19,26 @@ Quantum Motion Technologies (QMT) is a quantum computing startup looking to crea
 
 ### 6-Month Industrial Placement - 2023
 
-The primary project over these 6 months involves investigating the viability of using FPGA's and a custom digital hardware/software stack to replace the current methods of measuring and controlling Quantum Test Chips. I also have a secondary project that involves porting the current software environment used to program the chips onto a RP2040.
+The primary project over these 6 months involves investigating the viability of using FPGA's and a custom digital hardware/software stack to replace the current methods of measuring and controlling Quantum Test Chips. The goal of this project is too utilize the FPGA as a signal generator that can quickly respond and control the Test Chip upon feedback from reflected signals, with high precision and quick response time. I also have a secondary project that involves porting the current software environment used to program the chips onto an RP2040, in order to optimize the current lab setup and test flow by making certain components more compact and automatic.
 
-The primary goals and task I will complete/have completed over these 6 months are:
+The primary goals and tasks I will complete/have completed over these 6 months are:
 * Building on the Quantum Instrumentation Control Kit (QICK) in both hardware and software
   - Expanding on provided FPGA custom hardware to add new exclusive functionality necessary at QMT
     * Peak-Tracking hardware control loop
-    * Improved precision/range/functionality of  signal generators
-  - Developing software library for an end-user to interface with FPGA
+    * Improved precision/range/functionality of signal generators
+  - Developing software library for end users to interface with FPGA
 * Improving tool-flow by porting systems to low-level C on an RP2040
-  - Add ability for end user to interface with RP2040 via a serial or Ethernet connection
+  - Enable end users to interface with the RP2040 via a serial or Ethernet connection
   - Convert all communication between the RP2040 and target chip to utilize hardware communication protocols
 
 ### 3-Month Internship at Quantum Motion Technologies - 2022
 
-During these 3 months my project revolved more around analogue and digital validation. The 1st project was designing a current sensor with specific requirements to replace the existing one being used. The second was to investigate a correlation between on chip ring oscillators and transistor properties.
+During these 3 months my project revolved more around analogue and digital validation. The first project was designing a current sensor with specific requirements to replace the existing one being used. The second was to investigate the correlation between on chip ring oscillators and transistor properties. 
 
 The key completed tasks during this internship include:
-- Characterized silicon transistor properties at both room temperature and cryogenic temperatures
-   * Automated data pre-processing and analysis using Python
-   * Verified operation of ring oscillators
+- Characterization of silicon transistor properties at both room temperature and cryogenic temperatures
+   * Automation data pre-processing and analysis using Python
+   * Verification of operation of ring oscillators
 - Designed low-noise, wide range (1na-10ma), wide-band (100MHz) current sensor schematic and PCB
 
 
@@ -50,11 +50,11 @@ The key completed tasks during this internship include:
     </div>
 </div>
 
-Throughout my 3rd year at university I have been researching with the Circuits and Systems (CAS) group at Imperial College London. We are investigating the usage of Equivalency Graphs (E-Graphs) in data-path optimization for multiplier circuits. 
+Throughout my third year at university I have been researching with the Circuits and Systems (CAS) group at Imperial College London. We are investigating the usage of Equivalency Graphs (E-Graphs) in data-path optimization for multiplier circuits. 
 
-Multiplier circuits account for significant resource usage in data-path-dominated circuit designs and RTL designers continue to build bespoke hand-crafted multiplication arrays for their particular application. The construction of an optimized multiplier presents trade-offs between pre-processing to generate a smaller array and array reduction. E-Graphs are crucially able to explore these various tradeoffs efficiently.
+Multiplier circuits account for significant resource usage in data-path-dominated circuit designs and RTL designers continue to build bespoke hand-crafted multiplication arrays for their particular application. The construction of an optimized multiplier presents trade-offs between pre-processing to generate a smaller array and array reduction. E-Graphs are crucially able to explore these various tradeoffs efficiently. The goal of this research project is to explore the feasibility of incorporating an E-Graph framework into a HDL compiler/synthesizer that could optimize specific multiplier expressions for either area or latency.
 
 The following are some of the early developments that have been made:
-* Created rewrite framework in Rust using EGG to express alternative multiplier representations via E-Graph rewrites.
+* Created Rewrite framework in Rust using EGG to express alternative multiplier representations via E-Graph rewrites
 * Demonstrated the proposed tool can reduce the latency of a squaring circuit by up to 69%
 
