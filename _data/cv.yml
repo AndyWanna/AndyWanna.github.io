@@ -47,12 +47,13 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Research in Hardware Synthesis Optimization using E-Graphs
+    - title: Research in Computer Arithmetic Optimization using E-Graphs
       institution: Circuits and Systems Group, Imperial College London
       year: Oct 2022 - Present
       description:
-        - Created Rust tool to compile common hardware expressions into an optimized representation for both area and latency
+        - Created Rust tool to compile common hardware arithmetic expressions into an optimized representation for both area and latency
         - Demonstrated up to a 69% latency reduction in squaring circuits
+        - Paper has to been accepted to be presented at ASILOMAR 2023, as the primary author
     
     - title: Digital Design Industrial Placement at Quantum Motion
       institution: Quantum Motion Technologies, London, United Kingdom
@@ -60,7 +61,8 @@
       description:
       - Designing and integrating bespoke signal generator into QICK stack for High-Speed Qubit Feedback on an FPGA in System Verilog, using Vivado.
       - Creating software library to interface with FPGA hardware with PYNQ and QICK Python libraries
-      - Program Raspberry Pi Pico to communicate using TCP/IP over ethernet connections in C using lwIP
+      - Program RP2040 to communicate using TCP/IP over ethernet connections in C using lwIP
+      - Ported functions into C to be used on the PR2040, building an extensive codebase
 
     - title: Cosine Accelerator on FPGA in Verilog
       year: Feb 2023 - Mar 2023
@@ -80,10 +82,21 @@
         - Programmed an STM32 using Multi-Threading in Embedded C
         - Developed advanced functionality while maintaining thread safety, without affecting latency
 
+    - title: MRI Diagnosis Model using Computer Vision in PyTorch
+      year: Feb 2023 - Mar 2023
+      description:
+      - Implemented U-Net CNN architecture to perform image classification and segmentation on brain scans
+
     - title: Maximized Energy Efficiency of a SuperScalar CPU by varying MicroArchitectural Parameters
       year: Nov 2022
       description:
         - Explored effect of Branch Predictors, Memory Hierarchy, and Instruction Parallelism on the overall energy usage of a CPU
+
+    - title: House Price Regression Model in PyTorch
+      year: Nov 2022
+      description:
+        - Designed regression model using a Neural Network
+        - Preformed data pre-processing, K-fold hyperparameter validation, early-stopping, batched gradient descent to optimize the model
 
     - title: Analogue and Digital IC Validation Intern at Quantum Motion
       year: Jul 2022 – Oct 2022

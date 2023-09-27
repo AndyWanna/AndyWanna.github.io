@@ -58,3 +58,5 @@ The following are some of the early developments that have been made:
 * Created Rewrite framework in Rust using EGG to express alternative multiplier representations via E-Graph rewrites
 * Demonstrated the proposed tool can reduce the latency of a squaring circuit by up to 69%
 
+The paper has now been accepted ot be published and presented at ASILOMAR 2023.
+
