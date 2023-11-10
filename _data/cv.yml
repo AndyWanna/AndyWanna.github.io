@@ -106,14 +106,7 @@
         - Programmed an STM32 micro-controller using Multi-Threading in Embedded C
         - Developed advanced functionality while maintaining thread safety, without affecting latency of sound output
         - Enabled automatic detection and integration of additional devices to expand the synthesizer's functionality
-      
-    - title: GymBro Embedded Raspberry PI Device
-      year: Jan 2023 - Mar 2023
-      description:
-        - Built a network hosting an AWS server, a Raspberry Pi Client, and MySQL Database
-	      - Expanded functionality for multiple concurrent users, using Express.js, Node.js and MySQL
-	      - Ensured security by adding user authentication
-
+    
     - title: Maximized Energy Efficiency of a SuperScalar CPU by varying MicroArchitectural Parameters
       year: Nov 2022
       description:
