@@ -110,7 +110,7 @@
     - title: GymBro Embedded Raspberry PI Device
       year: Jan 2023 - Mar 2023
       description:
-        - Created a network hosting an AWS server, a Raspberry Pi Client, and MySQL Database
+        -  Created a network hosting an AWS server, a Raspberry Pi Client, and MySQL Database
 	      - Expanded functionality for multiple concurrent users, using Express.js, Node.js and MySQL
         - Ensured security by adding user authentication
 
