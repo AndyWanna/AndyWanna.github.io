@@ -107,12 +107,6 @@
         - Developed advanced functionality while maintaining thread safety, without affecting latency of sound output
         - Enabled automatic detection and integration of additional devices to expand the synthesizer's functionality
 
-    - title: GymBro Embedded Raspberry PI Device
-      year: Jan 2023 - Mar 2023
-      description:
-	      - Expanded functionality for multiple concurrent users, using Express.js, Node.js and MySQL
-	      - Ensured security by adding user authentication
-
     - title: Maximized Energy Efficiency of a SuperScalar CPU by varying MicroArchitectural Parameters
       year: Nov 2022
       description:
