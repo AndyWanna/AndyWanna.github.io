@@ -106,6 +106,13 @@
         - Programmed an STM32 micro-controller using Multi-Threading in Embedded C
         - Developed advanced functionality while maintaining thread safety, without affecting latency of sound output
         - Enabled automatic detection and integration of additional devices to expand the synthesizer's functionality
+      
+    - title: GymBro Embedded Raspberry PI Device
+      year: Jan 2023 - Mar 2023
+      description:
+        - Built a network hosting an AWS server, a Raspberry Pi Client, and MySQL Database
+	      - Expanded functionality for multiple concurrent users, using Express.js, Node.js and MySQL
+	      - Ensured security by adding user authentication
 
     - title: Maximized Energy Efficiency of a SuperScalar CPU by varying MicroArchitectural Parameters
       year: Nov 2022
@@ -151,9 +158,9 @@
         - Wrote test-benches to systematically test edge cases for each instruction
     
     - title: Boolean Algebra Solver in C++
-        year: May 2021
-        description:
-          - Programmed tool that could reduce and solve Boolean algebra expressions using trees in C++
+      year: May 2021
+      description:
+        - Programmed tool that could reduce and solve Boolean algebra expressions using trees in C++
 
 
 - title: Leadership and Team Experiences
