@@ -79,7 +79,7 @@
       year: Oct 2023
       description:
         - Created Rust tool to compile common hardware arithmetic expressions into an optimized representation for both area and latency
-        - o	Demonstrated up to a 46% latency reduction in squarer circuits and 9% latency reduction in general multiplication against industry standard logic synthesis tools
+        - Demonstrated up to a 46% latency reduction in squarer circuits and 9% latency reduction in general multiplication against industry standard logic synthesis tools
         - Paper has been presented at ASILOMAR 2023, to be published soon
     - title: Accelerating Interpretable Deep Neural Networks for medical Imaging using FPGAs – Final Year Project
       institution: Imperial College London
