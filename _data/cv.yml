@@ -22,6 +22,7 @@
         - title: Year 3
           contents:
             - First Class Honors
+            - Dean's List (Top 10% of Year)
         - title: Relevant Modules
           contents:
             - Advanced Computer Architecture (HW)
@@ -29,9 +30,13 @@
             - Instruction Architectures & Compilers (HW)
             - Digital Arithmetic and Computer Architecture (HW)
             - Information Processing (HW)
+            - Advanced Deep Learning Systems (HW/DL)
             - Digital Signal Processing (DSP)
             - Introduction to Machine Learning (ML/DL) 
             - Computer Vision (ML/DL)
+            - Deep Learning (DL)
+            - Mathematics for Machine Learning (ML)
+            - Topics in Large Dimensional Data Processing (ML)
             - Operations Research (SW) 
             - Embedded Systems (SW)
             - Software Systems (SW)
@@ -44,75 +49,89 @@
         - IB
         - SAT + SAT Subject tests
 
-- title: Experience
+- title: Technical Experience
   type: time_table
   contents:
-    - title: Research in Computer Arithmetic Optimization using E-Graphs
-      institution: Circuits and Systems Group, Imperial College London
-      year: Oct 2022 - Present
-      description:
-        - Created Rust tool to compile common hardware arithmetic expressions into an optimized representation for both area and latency
-        - Demonstrated up to a 69% latency reduction in squaring circuits
-        - Paper has to been accepted to be presented at ASILOMAR 2023, as the primary author
-    
     - title: Digital Design Industrial Placement at Quantum Motion
       institution: Quantum Motion Technologies, London, United Kingdom
       year: Apr 2023 - Oct 2023
       description:
-      - Designing and integrating bespoke signal generator into QICK stack for High-Speed Qubit Feedback on an FPGA in System Verilog, using Vivado.
-      - Creating software library to interface with FPGA hardware with PYNQ and QICK Python libraries
-      - Program RP2040 to communicate using TCP/IP over ethernet connections in C using lwIP
-      - Ported functions into C to be used on the PR2040, building an extensive codebase
+      - Designed and integrated bespoke signal generator into QICK stack for High-Speed Qubit Feedback on an FPGA in System Verilog, using Vivado
+      - Built a high-level, user-friendly software library to interface with and take advantage of optimised FPGA hardware with PYNQ and QICK Python libraries
+      - Programmed an RP2040 to communicate using TCP/IP over ethernet connections in C using the light-weight IP library
+      - Ported functions into C to be used on the RP2040, building an extensive codebase
 
+    - title: Analogue and Digital IC Validation Intern at Quantum Motion
+      year: Jul 2022 – Oct 2022
+      description:
+        - Automated Data analysis using Python scripting
+        - Devised model predicting transistor threshold voltage based on ring oscillator measurements
+        - Validated operation of ring oscillator hardware on silicon chips
+        - Characterized properties of silicon across a range of chips, at room and cryogenic Temperatures (2K)
+        - Designed low-noise, wide range (1na-10ma), wide-band (100MHz) current sensor schematic and PCB
+    
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: OptiMult - Multiplier Optimization via E-Graph Rewriting – Primary Author
+      institution: Circuits and Systems Group, Imperial College London
+      year: Oct 2023
+      description:
+        - Created Rust tool to compile common hardware arithmetic expressions into an optimized representation for both area and latency
+        - o	Demonstrated up to a 46% latency reduction in squarer circuits and 9% latency reduction in general multiplication against industry standard logic synthesis tools
+        - Paper has been presented at ASILOMAR 2023, to be published soon
+    - title: Accelerating Interpretable Deep Neural Networks for medical Imaging using FPGAs – Final Year Project
+      institution: Imperial College London
+      year: Oct 2023 - Present
+
+- title: Technical Projects
+  type: time_table
+  contents:
     - title: Cosine Accelerator on FPGA in Verilog
       year: Feb 2023 - Mar 2023
       description:
-      - Notably reduced output latency by implementing Cosine on an FPGA using CORDIC in SystemVerilog
-      - Designed customized hardware Floating-Point arithmetic blocks for further speed-ups
-
-    - title: GymBro Embedded Raspberry PI Device
-      year: Jan 2023 - Mar 2023
-      description:
-        - Built a network hosting an AWS server, a Raspberry Pi Client, and MySQL Database
-        - Expanded functionality for multiple users, using Node.js and MySQL, ensuring scalability and security
-
-    - title: Digital Synthesizer in Embedded C
-      year: Jan 2023 - Mar 2023
-      description:
-        - Programmed an STM32 using Multi-Threading in Embedded C
-        - Developed advanced functionality while maintaining thread safety, without affecting latency
+        - Reduced the output latency of vector function by 77% by implementing custom cosine block on an FPGA using CORDIC in SystemVerilog with Quartus
+        - Designed customized hardware Floating-Point Arithmetic blocks for further speed-ups
+        - Optimized function further via low-level programming in C
 
     - title: MRI Diagnosis Model using Computer Vision in PyTorch
       year: Feb 2023 - Mar 2023
       description:
       - Implemented U-Net CNN architecture to perform image classification and segmentation on brain scans
 
+    - title: Digital Synthesizer in Embedded C
+      year: Jan 2023 - Mar 2023
+      description:
+        - Programmed an STM32 micro-controller using Multi-Threading in Embedded C
+        - Developed advanced functionality while maintaining thread safety, without affecting latency of sound output
+        - Enabled automatic detection and integration of additional devices to expand the synthesizer's functionality
+
+    - title: GymBro Embedded Raspberry PI Device
+      year: Jan 2023 - Mar 2023
+      description:
+	      - Built a network hosting an AWS server, a Raspberry Pi Client, and MySQL Database
+	      - Expanded functionality for multiple concurrent users, using Express.js, Node.js and MySQL
+	      - Ensured security by adding user authentication
+
     - title: Maximized Energy Efficiency of a SuperScalar CPU by varying MicroArchitectural Parameters
       year: Nov 2022
       description:
-        - Explored effect of Branch Predictors, Memory Hierarchy, and Instruction Parallelism on the overall energy usage of a CPU
+        - Varied microarchitectural parameters such as Branch Predictors, Memory Hierarchy, and Instruction Parallelism, investigating their impact on energy usage
 
     - title: House Price Regression Model in PyTorch
       year: Nov 2022
       description:
-        - Designed regression model using a Neural Network
-        - Preformed data pre-processing, K-fold hyperparameter validation, early-stopping, batched gradient descent to optimize the model
-
-    - title: Analogue and Digital IC Validation Intern at Quantum Motion
-      year: Jul 2022 – Oct 2022
-      description:
-        - Automated Data analysis using Python scripting
-        - Devised correlation between ring oscillator results and silicon transistors
-        - Validated operation of ring oscillator hardware on silicon chips
-        - Characterized properties of silicon across a range of chips, at room and cryogenic Temperatures (2K)
-        - Designed low-noise, wide range (1na-10ma), wide-band (100MHz) current sensor schematic and PCB
+        - Designed a regression model using a neural network
+        - Preformed data pre-processing, K-fold hyperparameter validation, early stopping, batched gradient descent and various other ML optimization techniques
+        - Implemented a custom NN training and inference mini library with batched gradient descent, arbitrary layers and custom activation functions
 
     - title: Webapp for Mars Rover
       year: May 2022 – Jul 2022
       description:
-        - Backend using AWS and Node.js for web-app (rover command) 
-        - Created MySQL database to process information provided from rover
-        - Designed network architecture to handle communication between web-app server, rover, and MySQL database 
+        - Developed backend for webserver using AWS, Node.js and Express.js for communication between the webapp and embedded system on Mars Rover
+        - Designed front-end with HTML/CSS/JavaScript
+        - Utilized MySQL on an AWS instance as a database for the WebApp, to maintain live rover position and data
 
     - title: C to MIPS Assembly compiler in C++
       year: Feb 2022 – Mar 2022
@@ -123,20 +142,26 @@
     - title: Automatic Scheduler in C++
       year: Jul 2022 – Oct 2022
       description:
-        - Created software to allocate projects within a set schedule to improve time management
+        - Created software to allocate projects within a set schedule to improve time management in C++
 
     - title: Video game with FPGA hand-held controller
       year: Feb 2022 – Mar 2022
       description:
         - Instantiated NIOS-II soft-core CPU onto FPGA using Quartus
-        - Programmed FPGA accelerometer functionality and low-level local processing and networking in C
-        - Client side-communication and further data processing using Python
+        - Programmed FPGA accelerometer functionality and low-level local processing and networking in C with Eclipse
+        - Developed client-side communication with server and user along with advanced signal processing for motion detection in Python
 
     - title: MIPS 32-bit CPU in Verilog
       year: Nov 2021 – Dec 2021
       description:
         - MIPS 32-bit CPU written in Icarus Verilog to process standard instructions
         - Wrote test-benches to systematically test edge cases for each instruction
+    
+    - title: Boolean Algebra Solver in C++
+        year: May 2021
+        description:
+          - Programmed tool that could reduce and solve Boolean algebra expressions using trees in C++
+
 
 - title: Leadership and Team Experiences
   type: time_table
@@ -159,10 +184,12 @@
 - title: Skills, Strengths and Achievements
   type: nested_list
   contents:
-    - title: Proficient in C/C++, Python, Verilog/SystemVerilog
+    - title: Proficient in C/C++, Python, Rust, Verilog/SystemVerilog
     
-    - title: Experienced in JavaScript, Rust, AWS, PyTorch
-    
+    - title: Experienced in JavaScript (NodeJS), SQL, Rust
+
+    - title: Familiar Technologies - AWS, Git, FPGAs, Microcontrollers, TCP/IP, PyTorch, Vivado, Quartus, Eclipse, LTSpice, QICK
+
     - title: Adept in (written and spoken) English, French, and Arabic
 
     - title: Completed Math and Further pure maths iGCSE, 2 years early
