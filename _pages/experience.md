@@ -25,8 +25,7 @@ The following are some of the main results:
   - 46% latency reduction in squarer circuits.
   - 9% latency reduction in general multiplier circuits.
 
-The paper has now been presented at ASILOMAR 2023. The preprint is available here: http://arxiv.org/abs/2312.06004
-
+The paper has now been presented at ASILOMAR 2023. The preprint is available [here](http://arxiv.org/abs/2312.06004)! 
 ## Quantum Motion Technologies
 
 <div class="row">
