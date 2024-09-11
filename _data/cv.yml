@@ -9,7 +9,15 @@
 - title: Education
   type: time_table
   contents:
-    - title: Masters of Engineering (Computer Engineering)
+    - title: Ph.D of Computer Engineering
+      institution: Georgia Institute of Technology, Georgia, United States
+      year: 2024 - 2029
+      description:
+        - title: Relevant Modules
+          contents:
+            - High Dimensional Statistics and Optimization (ML/DL)
+            - Advanced Programming Techniques (HW/SW)
+    - title: Masters of Engineering (Computer Engineering) - First Class Honors (4.0 GPA)
       institution: Imperial College London, London, United Kingdom
       year: 2020 - 2024
       description:
@@ -23,20 +31,26 @@
           contents:
             - First Class Honors
             - Dean's List (Top 10% of Year)
+        - title: Year 4
+          contents:
+            - First Class Honors
+            - Dean's List (Top 5% of Year)
         - title: Relevant Modules
           contents:
             - Advanced Computer Architecture (HW)
-            - Digital System Design (HW) 
-            - Instruction Architectures & Compilers (HW)
-            - Digital Arithmetic and Computer Architecture (HW)
-            - Information Processing (HW)
             - Advanced Deep Learning Systems (HW/DL)
-            - Digital Signal Processing (DSP)
-            - Introduction to Machine Learning (ML/DL) 
-            - Computer Vision (ML/DL)
+            - Digital System Design (HW) 
             - Deep Learning (DL)
-            - Mathematics for Machine Learning (ML)
-            - Topics in Large Dimensional Data Processing (ML)
+            - Topics in Large Dimensional Data Processing (ML/DL)
+            - Mathematics for Machine Learning (ML/DL)
+            - Financial Signal Processing and Machine Learning (ML/DL)
+            - Probability and Stochastic Processes (DSP/ML/DL)
+            - Computer Vision (ML/DL)
+            - Introduction to Machine Learning (ML/DL) 
+            - Digital Signal Processing (DSP)
+            - Instruction Architectures & Compilers (HW)
+            - Information Processing (HW)
+            - Digital Arithmetic and Computer Architecture (HW)
             - Operations Research (SW) 
             - Embedded Systems (SW)
             - Software Systems (SW)
@@ -52,7 +66,15 @@
 - title: Technical Experience
   type: time_table
   contents:
-    - title: FPGA Engineer - 6 month Industrial Placement at Quantum Motion
+    - title: Numerical Hardware Engineer Intern
+      institution: Intel, London (Remote), United Kingdom
+      year: Jun 2024 - Aug 2024
+      description:
+      - Automated mixed-precision floating point multiplier design optimization in Rust using E-Graph
+      - Investigated glitch power minimization in hardware designs using Integer Linear Programming
+      - Explored techniques and methods for optimal dot-product hardware units
+
+    - title: FPGA Engineer - 6 month Industrial Placement (CO-OP) at Quantum Motion
       institution: Quantum Motion Technologies, London, United Kingdom
       year: Apr 2023 - Oct 2023
       description:
@@ -74,16 +96,29 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: OptiMult - Multiplier Optimization via E-Graph Rewriting – Primary Author
-      institution: Circuits and Systems Group, Imperial College London
+    - title: Hardware Accelerator Generation and Optimization for Cryptographic Primitives
+      institution: Georgia Institue of Technology
+      year: Aug 2024 - Present
+      description:
+        - Automatically applying HLS Optimizations to Cryptographic Primitives, using E-Graphs to generate formally verified cryptographic accelerators for resource-constrained hardware
+        - Developing surrounding C-to-RTL HLS workflow to guarantee the correctness and optimal accelerator PPA
+
+    - title: Quantifying and Automating Interpretability for Deep Learning - Final Year Project - Primary Author
+      institution: Imperial College London
+      year: Oct 2023 - Jun 2024
+      description:
+        - Designed metric to quantitatively evaluate the interpretability of a deep learning model, enabling trade-off analysis
+        - Developed an automated workflow to add interpretability to CNNs, achieving up to an 84\% inference latency improvement over the manual INN model
+        - Demonstrated comparable interpretability results on standard CNNs with state-of-the-art GradCAM methods
+        - Submitted to AAAI 2025
+
+    - title: OptiMult - Multiplier Optimization via E-Graph Rewriting - Undergraduate Research - Primary Author
+      institution: Imperial College London - Under
       year: Oct 2023
       description:
-        - Created Rust tool to compile common hardware arithmetic expressions into an optimized representation for both area and latency
+        - Created tool in Rust to compile hardware arithmetic expressions into optimized representations for area and latency
         - Demonstrated up to a 46% latency reduction in squarer circuits and 9% latency reduction in general multiplication against industry standard logic synthesis tools
-        - Paper has been presented at ASILOMAR 2023
-    - title: Accelerating Interpretable Deep Neural Networks for medical Imaging using FPGAs – Final Year Project
-      institution: Imperial College London
-      year: Oct 2023 - Present
+        - Presented at ASILOMAR 2023
 
 - title: Technical Projects
   type: time_table
