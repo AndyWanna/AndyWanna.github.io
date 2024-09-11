@@ -55,7 +55,7 @@ The following are some of the main results:
   - 46% latency reduction in squarer circuits.
   - 9% latency reduction in general multiplier circuits.
 
-The paper has now been presented at *ASILOMAR 2023* - available <p style="font-size: 16px;">[here](https://ieeexplore.ieee.org/document/10476812)!</p>
+The paper has now been presented at *ASILOMAR 2023* - available [**HERE**](https://ieeexplore.ieee.org/document/10476812)!
 
 ## Industry Expreiences
 
@@ -96,8 +96,8 @@ The primary goals achieved over these 6 months are:
   - Enable end users to interface with the RP2040 via a serial or Ethernet connection
   - Convert all communication between the RP2040 and target chip to utilize hardware communication protocols
 
-<style>
+<!-- <style>
 .row {
   background-color: white;
 }
-</style>
+</style> -->
