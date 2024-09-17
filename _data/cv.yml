@@ -123,6 +123,18 @@
 - title: Technical Projects
   type: time_table
   contents:
+    - title: Deep Learning Activation Function Hardware Accelerators in SystemVerilog
+      year: Jan 2024 - Mar 2024
+      description:
+        - Designed and Verified 4 – 16 bit parameterized implementations of Softmax, LogSigmoid, Sigmoid, ELU, SILU, Softshrink activation functions
+        - Integrated activation functions into a re-configurable, dynamically scheduled hardware architecture
+
+    - title: Generative Deep Learning Models in PyTorch
+      year: Jan 2024 - Mar 2024
+      description:
+        - Analyzed a VAE transformer architecture on generating and classifying the MNIST dataset
+        - Explored Class Conditional & Wasserstein-GP DCGAN architectures on generating images in the CIFAR-10 dataset
+
     - title: Cosine Accelerator on FPGA in Verilog
       year: Feb 2023 - Mar 2023
       description:
