@@ -71,31 +71,32 @@
   type: time_table
   contents:
     - title: Numerical Hardware Engineer Intern
-    institution: AMD, Folsom, California, United Stated of America
-    year: May 2025 - Aug 2025
-    description:
-    - Invented novel integer and constant multiplier architectures, improving both minimum delay and area
-    - Designed E-Graph multiplier framework capturing array creation and reduction design space, enabling exploration of arbitrarily hybrid architectures
-    - Developed methods to automatically generate multipliers optimized to input data properties such as arrival time and toggle rates
+      institution: AMD, Folsom, California, United Stated of America
+      year: May 2025 - Aug 2025
+      description:
+        - Invented novel integer and constant multiplier architectures, improving both minimum delay and area
+        - Designed E-Graph multiplier framework capturing array creation and reduction design space, enabling exploration of arbitrarily hybrid architectures
+        - Developed methods to automatically generate multipliers optimized to input data properties such as arrival time and toggle rates
 
     - title: Numerical Hardware Engineer Intern
       institution: Intel, London (Remote), United Kingdom
       year: Jun 2024 - Aug 2024
       description:
-      - Automated mixed-precision floating point multiplier design optimization in Rust using E-Graph
-      - Investigated glitch power minimization in hardware designs using Integer Linear Programming
-      - Explored techniques and methods for optimal dot-product hardware units
+        - Automated mixed-precision floating point multiplier design optimization in Rust using E-Graph
+        - Investigated glitch power minimization in hardware designs using Integer Linear Programming
+        - Explored techniques and methods for optimal dot-product hardware units
 
     - title: FPGA Engineer Co-Op
       institution: Quantum Motion Technologies, London, United Kingdom
       year: Apr 2023 - Oct 2023
       description:
-      - Designed and integrated bespoke signal generator into QICK stack for High-Speed Qubit Feedback on an FPGA in System Verilog, using Vivado
-      - Built a high-level, user-friendly software library to interface with and take advantage of optimised FPGA hardware with PYNQ and QICK Python libraries
-      - Programmed an RP2040 to communicate using TCP/IP over ethernet connections in C using the light-weight IP library
-      - Ported functions into C to be used on the RP2040, building an extensive codebase
+        - Designed and integrated bespoke signal generator into QICK stack for High-Speed Qubit Feedback on an FPGA in System Verilog, using Vivado
+        - Built a high-level, user-friendly software library to interface with and take advantage of optimised FPGA hardware with PYNQ and QICK Python libraries
+        - Programmed an RP2040 to communicate using TCP/IP over ethernet connections in C using the light-weight IP library
+        - Ported functions into C to be used on the RP2040, building an extensive codebase
 
-    - title: Analogue and Digital IC Validation Intern at Quantum Motion
+    - title: Analogue and Digital IC Validation Intern
+      institution: Quantum Motion
       year: Jul 2022 – Oct 2022
       description:
         - Automated Data analysis using Python scripting
