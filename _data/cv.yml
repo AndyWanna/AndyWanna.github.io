@@ -67,6 +67,14 @@
   type: time_table
   contents:
     - title: Numerical Hardware Engineer Intern
+    institution: AMD, Folsom, California, United Stated of America
+    year: May 2025 - Aug 2025
+    description:
+    - Invented novel integer and constant multiplier architectures, improving both minimum delay and area
+    - Designed E-Graph multiplier framework capturing array creation and reduction design space, enabling exploration of arbitrarily hybrid architectures
+    - Developed methods to automatically generate multipliers optimized to input data properties such as arrival time and toggle rates
+
+    - title: Numerical Hardware Engineer Intern
       institution: Intel, London (Remote), United Kingdom
       year: Jun 2024 - Aug 2024
       description:
@@ -74,7 +82,7 @@
       - Investigated glitch power minimization in hardware designs using Integer Linear Programming
       - Explored techniques and methods for optimal dot-product hardware units
 
-    - title: FPGA Engineer - 6 month Industrial Placement (CO-OP) at Quantum Motion
+    - title: FPGA Engineer Co-Op
       institution: Quantum Motion Technologies, London, United Kingdom
       year: Apr 2023 - Oct 2023
       description:
@@ -96,12 +104,37 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: Hardware Accelerator Generation and Optimization for Cryptographic Primitives
-      institution: Georgia Institue of Technology
-      year: Aug 2024 - Present
+    - title: E-Graph Reinforcement Learning Framework
+      institution: Georgia Institute of Technology - AMD - Current Research
+      year: ""
       description:
-        - Automatically applying HLS Optimizations to Cryptographic Primitives, using E-Graphs to generate formally verified cryptographic accelerators for resource-constrained hardware
-        - Developing surrounding C-to-RTL HLS workflow to guarantee the correctness and optimal accelerator PPA
+        - Building a generalized RL framework to streamline e-graph exploration, addressing scalability limitations
+
+    - title: Hardware Arithmetic Formal Verification in Lean
+      institution: Georgia Institute of Technology - Current Research
+      year: ""
+      description:
+        - Framework built in Lean to formally verify arithmetic RL designs against a strict bitvector arithmetic DSL
+        - Developed a Yosys-based frontend for Verilog designs alongside the DSL parser, in Rust
+        - Support for SMT-based proofs, parameterized model checks, multiplier verification, and floating point properties
+
+    - title: Automated HLS Design Modularization using E-Graphs - Primary Co-Author
+      institution: Georgia Institute of Technology
+      year: ""
+      description:
+        - Developed a framework integrating e-graphs, anti-unification, and polyhedral loop analysis to automatically identify and extract reusable hardware modules from HLS designs
+        - Introduced hardware-aware cost functions to guide module selection and design extraction, enabling scalable reuse across diverse workloads including GEMM, GEMV, and self-attention
+        - Demonstrated up to 99% hardware reuse and significant area reductions across benchmarks, with modularized designs synthesized on FPGA/ASIC flows (Catapult HLS, Vitis HLS)
+        - Presented at PLDI 2025
+        - Under Review
+
+    - title: ForgeBench: A Machine Learning Benchmark Suite and Auto-Generation Framework - Primary Co-Author
+      institution: Georgia Institute of Technology 
+      year: ""
+      description:
+        - An extensible benchmark framework auto-generating HLS ML designs across GEMM, DNN, and LLM workloads
+        - Created a modularized benchmark test suite demonstrating the necessity of architecture-oriented HLS tools
+
 
     - title: Quantifying and Automating Interpretability for Deep Learning - Final Year Project - Primary Author
       institution: Imperial College London
@@ -110,7 +143,6 @@
         - Designed metric to quantitatively evaluate the interpretability of a deep learning model, enabling trade-off analysis
         - Developed an automated workflow to add interpretability to CNNs, achieving up to an 84\% inference latency improvement over the manual INN model
         - Demonstrated comparable interpretability results on standard CNNs with state-of-the-art GradCAM methods
-        - Submitted to AAAI 2025
 
     - title: OptiMult - Multiplier Optimization via E-Graph Rewriting - Undergraduate Research - Primary Author
       institution: Imperial College London - Under

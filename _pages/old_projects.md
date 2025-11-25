@@ -2,11 +2,9 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Growing collection of technical projects
-nav: true
-nav_order: 2
-display_categories: [Hardware, Software]
-horizontal: false
+description: Growing collection of Industry Experiences
+nav: false
+nav_order: 3
 ---
 
 <!-- pages/projects.md -->
