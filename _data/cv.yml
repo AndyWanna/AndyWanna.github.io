@@ -15,7 +15,11 @@
       description:
         - title: Relevant Modules
           contents:
-            - High Dimensional Statistics and Optimization (ML/DL)
+            - SAT/SMT Solvers (SW)
+            - Internet Architecture and Protocols (SW/HW)
+            - Hardware-Software Co-Design in ML systems (HW/DL) 
+            - Graphical Models in ML (DL)
+            - High Dimensional Statistics and Optimization (DL)
             - Advanced Programming Techniques (HW/SW)
     - title: Masters of Engineering (Computer Engineering) - First Class Honors (4.0 GPA)
       institution: Imperial College London, London, United Kingdom
@@ -41,12 +45,12 @@
             - Advanced Deep Learning Systems (HW/DL)
             - Digital System Design (HW) 
             - Deep Learning (DL)
-            - Topics in Large Dimensional Data Processing (ML/DL)
-            - Mathematics for Machine Learning (ML/DL)
-            - Financial Signal Processing and Machine Learning (ML/DL)
-            - Probability and Stochastic Processes (DSP/ML/DL)
-            - Computer Vision (ML/DL)
-            - Introduction to Machine Learning (ML/DL) 
+            - Topics in Large Dimensional Data Processing (DL)
+            - Mathematics for Machine Learning (DL)
+            - Financial Signal Processing and Machine Learning (DL)
+            - Probability and Stochastic Processes (DSP/DL)
+            - Computer Vision (DL)
+            - Introduction to Machine Learning (DL) 
             - Digital Signal Processing (DSP)
             - Instruction Architectures & Compilers (HW)
             - Information Processing (HW)
@@ -118,7 +122,7 @@
         - Developed a Yosys-based frontend for Verilog designs alongside the DSL parser, in Rust
         - Support for SMT-based proofs, parameterized model checks, multiplier verification, and floating point properties
 
-    - title: Automated HLS Design Modularization using E-Graphs - Primary Co-Author
+    - title: "Lemonade: Automated HLS Design Modularization using E-Graphs - Primary Co-Author"
       institution: Georgia Institute of Technology
       year: ""
       description:
@@ -128,7 +132,7 @@
         - Presented at PLDI 2025
         - Under Review
 
-    - title: ForgeBench: A Machine Learning Benchmark Suite and Auto-Generation Framework - Primary Co-Author
+    - title: "ForgeBench: A Machine Learning Benchmark Suite and Auto-Generation Framework - Primary Co-Author"
       institution: Georgia Institute of Technology 
       year: ""
       description:
@@ -144,7 +148,7 @@
         - Developed an automated workflow to add interpretability to CNNs, achieving up to an 84\% inference latency improvement over the manual INN model
         - Demonstrated comparable interpretability results on standard CNNs with state-of-the-art GradCAM methods
 
-    - title: OptiMult - Multiplier Optimization via E-Graph Rewriting - Undergraduate Research - Primary Author
+    - title: "OptiMult: Multiplier Optimization via E-Graph Rewriting - Undergraduate Research - Primary Author"
       institution: Imperial College London - Under
       year: Oct 2023
       description:
