@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>a post with formatting and links | Andy  Wanna</title>
+    <title>Research | Andy  Wanna</title>
     <meta name="author" content="Andy  Wanna">
-    <meta name="description" content="march &amp; april, looking forward to summer">
+    <meta name="description" content="Growing resume of research experience">
 
 
     <!-- Bootstrap & MDB -->
@@ -37,7 +37,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://andywanna.github.io/sample-posts/2015/03/15/formatting-and-links.html">
+    <link rel="canonical" href="https://andywanna.github.io/research/">
 
     <!-- Dark Mode -->
     
@@ -77,8 +77,8 @@
               
 
               <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/research/">Research</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/research/">Research<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/experience/">Technical Experience</a>
@@ -111,58 +111,172 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- _layouts/post.html -->
+        <!-- page.html -->
+        <div class="post">
 
-<div class="post">
+          <header class="post-header">
+            <h1 class="post-title">Research</h1>
+            <p class="post-description">Growing resume of research experience</p>
+          </header>
 
-  <header class="post-header">
-    <h1 class="post-title">a post with formatting and links</h1>
-    <p class="post-meta">March 15, 2015</p>
-    <p class="post-tags">
-      <a href="/blog/2015"> <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-        ·  
-        <a href="/blog/tag/formatting">
-          <i class="fas fa-hashtag fa-sm"></i> formatting</a>  
-          <a href="/blog/tag/links">
-          <i class="fas fa-hashtag fa-sm"></i> links</a>  
-          
-        ·  
-        <a href="/blog/category/sample-posts">
-          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
-          
+          <article>
+            <h2 id="georgia-insititute-of-technology">Georgia Insititute of Technology</h2>
 
-    </p>
-  </header>
+<!-- <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
 
-  <article class="post-content">
+  <picture>
     
-    <div id="markdown-content">
-      <p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" rel="external nofollow noopener" target="_blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" rel="external nofollow noopener" target="_blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
+    <source 
+        class="responsive-img-srcset"
+        media="(max-width: 480px)" 
+        srcset="/assets/img/Logos/GTExtended-480.webp"
+      />
+    <source 
+        class="responsive-img-srcset"
+        media="(max-width: 800px)" 
+        srcset="/assets/img/Logos/GTExtended-800.webp"
+      />
+    <source 
+        class="responsive-img-srcset"
+        media="(max-width: 1400px)" 
+        srcset="/assets/img/Logos/GTExtended-1400.webp"
+      />
+    
 
-<h4 id="hipster-list">Hipster list</h4>
+    <!-- Fallback to the original file -->
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;img 
+  src="/assets/img/Logos/GTExtended.png"
+  class="img-fluid rounded z-depth-1"  
+  width="auto" 
+  height="auto" 
+   
+   
+   
+   
+   
+  title="example image" 
+  
+  onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+/&gt;
+</code></pre></div></div>
+
+<p>&lt;/picture&gt;</p>
+
+<p>&lt;/figure&gt;</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt; –&gt;</p>
+
+<h3 id="lemonade--automated-high-level-synthesis-design-modularization-using-e-graphs">Lemonade – Automated High-Level Synthesis Design Modularization using E-Graphs</h3>
+
+<p>High-Level Synthesis (HLS) tools have revolutionized hardware development for specialized accelerators, but they fundamentally lack support for designing <em>reusable architectures</em>. Every HLS program is currently synthesized into independent hardware, forcing designers to manually engineer any potential sharing across different workloads. This limitation is particularly restrictive in fast-evolving fields like machine learning, where core computational kernels are often shared but require separate, redundant hardware implementations. To bridge this gap, we introduced <strong>Lemonade</strong>, a framework that automatically identifies and modularizes common hardware components across a set of HLS programs, enabling true architectural design directly within the HLS workflow.</p>
+
+<p>The key contributions are:</p>
+
 <ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
+  <li>
+<strong>Automated Modularization</strong>:  We combine hardware-oriented E-Graph exploration with Anti-Unification to automatically identify and extract synthesizable hardware modules from multiple HLS designs.</li>
+  <li>
+<strong>Scalable Loop Transformation</strong>: We integrate polyhedral loop analysis to determine the soundness and optimal reuse opportunities within nested loop structures, making the exploration tractable.</li>
+  <li>
+<strong>Hardware-Aware Extraction</strong>: We propose a decoupled extraction flow using customizable cost functions that prioritize the usefulness (area/delay span) and synthesizability of learned modules over simple code compression.</li>
 </ul>
 
-<p>Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90’s yr typewriter selfies letterpress cardigan vegan.</p>
+<p>This work was initially presented at the <em>EGRAPH</em> workshop at <em>PLDI 2025</em> - available <a href="https://www.youtube.com/live/AEbvKbHPRhM?si=D3sPKH6MXOo_Q5H0&amp;t=11214" rel="external nofollow noopener" target="_blank"><strong>HERE</strong></a>!</p>
 
-<hr>
+<h2 id="imperial-college-london">Imperial College London</h2>
 
-<p>Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.</p>
+<!-- <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
 
-<blockquote>
-    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-    —Anais Nin
-</blockquote>
+  <picture>
+    
+    <source 
+        class="responsive-img-srcset"
+        media="(max-width: 480px)" 
+        srcset="/assets/img/Logos/IMPERIAL-480.webp"
+      />
+    <source 
+        class="responsive-img-srcset"
+        media="(max-width: 800px)" 
+        srcset="/assets/img/Logos/IMPERIAL-800.webp"
+      />
+    <source 
+        class="responsive-img-srcset"
+        media="(max-width: 1400px)" 
+        srcset="/assets/img/Logos/IMPERIAL-1400.webp"
+      />
+    
 
-<p>Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.</p>
+    <!-- Fallback to the original file -->
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;img 
+  src="/assets/img/Logos/IMPERIAL.png"
+  class="img-fluid rounded z-depth-1"  
+  width="auto" 
+  height="auto" 
+   
+   
+   
+   
+   
+  title="Imperial Logo" 
+  
+  onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+/&gt;
+</code></pre></div></div>
 
-    </div>
-  </article>
-</div>
+<p>&lt;/picture&gt;</p>
+
+<p>&lt;/figure&gt;</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt; –&gt;</p>
+
+<h3 id="final-year-project--optimizing-interpretable-deep-learning">Final Year Project – Optimizing Interpretable Deep Learning</h3>
+
+<p>I completed my Final Year Masters Thesis under the supervision of Professors Wayne Luk and Ce Guo. I focused on quantifying and automating Interpretability for Deep Learning.</p>
+
+<p>Deep learning, particularly in the form of convolutional neural networks (CNNs), has achieved significant success in applications such as medical imaging and autonomous driving. However, the lack of interpretability in these models has limited their adoption in critical fields where transparency and trust are paramount. This research introduces <strong>OptINN</strong>, an optimized interpretable neural network (INN) architecture, designed to address these challenges by leveraging GPU acceleration and quantization techniques.</p>
+
+<p>The key contributions are:</p>
+
+<ul>
+  <li>
+<strong>Quantifying Interpretability</strong>: Introduced a novel metric to quantitatively assess interpretability in deep learning models, enabling an analysis of trade-offs between interpretability, accuracy, and performance.</li>
+  <li>
+<strong>Automated INN Conversion from CNNs</strong>: Developed a generalized method to automatically convert standard CNNs into INNs with minimal performance overhead, using automated acceleration techniques to optimize for GPU execution.</li>
+  <li>
+<strong>Performance Optimization</strong>: Demonstrated significant improvements in inference latency and accuracy. The FP16 MobileNet-V3-based OptINN achieved an 88.83% reduction in latency compared to the ResNet-50 IAIA-BL model while maintaining high interpretability. The Int-8 QAT EfficientNet-V2 OptINN exhibited a 2.17 percentage point increase in top-1 accuracy and an 80.49% latency improvement over comparable models.</li>
+</ul>
+
+<h3 id="undergraduate-research--optimult">Undergraduate Research – OptiMult</h3>
+
+<p>Throughout my third year at university I have been researching with the Circuits and Systems (CAS) group at Imperial College London, specifically with Ph.D. student Sam Coward, Professor George Constantinids and Professor Emeritus Miloš Ercegovac at UCLA. We investigated the usage of Equivalency Graphs (E-Graphs) in data-path optimization for multiplier circuits.</p>
+
+<p>Multiplier circuits account for significant resource usage in data-path-dominated circuit designs and RTL designers continue to build bespoke hand-crafted multiplication arrays for their particular application. The construction of an optimized multiplier presents trade-offs between pre-processing to generate a smaller array and array reduction. E-Graphs are crucially able to explore these various tradeoffs efficiently. The goal of this research project is to explore the feasibility of incorporating an E-Graph framework into a HDL compiler/synthesizer that could optimize specific multiplier expressions for either area or latency. The initial proposed e-graph tool developed in Rust - <strong>OptiMult</strong> - has demonstrated latency improvements against standard logic synthesis tools for multiplier expressions.</p>
+
+<p>The following are some of the main results:</p>
+
+<ul>
+  <li>Created Rewrite framework in Rust using EGG to express alternative multiplier representations via E-Graph rewrites</li>
+  <li>Demonstrated latency reduction in arithmetic circuits against industry standard logic synthesis tools
+    <ul>
+      <li>46% latency reduction in squarer circuits.</li>
+      <li>9% latency reduction in general multiplier circuits.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The paper has now been presented at <em>ASILOMAR 2023</em> - available <a href="https://ieeexplore.ieee.org/document/10476812" rel="external nofollow noopener" target="_blank"><strong>HERE</strong></a>!</p>
+
+          </article>
+
+        </div>
 
       
     </div>
