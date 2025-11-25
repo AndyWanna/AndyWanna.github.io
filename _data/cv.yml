@@ -13,6 +13,12 @@
       institution: Georgia Institute of Technology, Georgia, United States
       year: 2024 - 2029
       description:
+        - title: Year 1
+          contents:
+            - 4.0 GPA
+        - title: Year 2
+          contents:
+            - 4.0 GPA
         - title: Relevant Modules
           contents:
             - SAT/SMT Solvers (SW)
@@ -27,17 +33,17 @@
       description:
         - title: Year 1
           contents:
-            - First Class Honors
+            - First Class Honors (4.0)
         - title: Year 2
           contents:
-            - First Class Honors
+            - First Class Honors (4.0)
         - title: Year 3
           contents:
-            - First Class Honors
+            - First Class Honors (4.0)
             - Dean's List (Top 10% of Year)
         - title: Year 4
           contents:
-            - First Class Honors
+            - First Class Honors (4.0)
             - Dean's List (Top 5% of Year)
         - title: Relevant Modules
           contents:

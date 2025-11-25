@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Research Exeperience
 permalink: /research/
 description: Growing resume of research experience
 nav: true
@@ -8,12 +8,6 @@ nav_order: 1
 ---
 
 ## Georgia Insititute of Technology
-
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Logos/GTExtended.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div> -->
 
 ### Lemonade -- Automated High-Level Synthesis Design Modularization using E-Graphs
 
@@ -28,12 +22,6 @@ The key contributions are:
 This work was initially presented at the *EGRAPH* workshop at *PLDI 2025* - available [**HERE**](https://www.youtube.com/live/AEbvKbHPRhM?si=D3sPKH6MXOo_Q5H0&t=11214)!
 
 ## Imperial College London
-
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Logos/IMPERIAL.png" title="Imperial Logo" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div> -->
 
 ### Final Year Project -- Optimizing Interpretable Deep Learning
 

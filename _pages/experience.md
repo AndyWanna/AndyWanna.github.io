@@ -9,14 +9,13 @@ nav_order: 2
 
 ## AMD - 3-Month Summer Internship - 2025
 
+During my summer research-oriented internship at AMD, following my first PhD year, I worked within the Numerical Architecture Hardware Group. This team, similar to the group I worked with at Intel the previous year, focused on the design and automation of high-performance arithmetic components for GPUs and NPUs. Our objective was to develop datapath generation tools that produce designs optimized for highly specific domain data properties, such as input arrival times, toggle rates, and specialized formats. My primary project centered on advanced multiplier generation.
+
+To establish the foundation for a high-performance multiplier generator, we first needed to rigorously define the existing design space of optimal multiplier architectures. This investigation led directly to the invention of novel integer and constant multiplier architectures, achieving significant gains in both minimum delay and area efficiency over baseline designs. Utilizing these foundational components, I developed a sophisticated E-Graph multiplier framework that systematically modeled the entire design space for array creation and reduction. This innovation allowed for the automated exploration and synthesis of arbitrarily hybrid, high-performance multiplier architectures.
+
+Finally, I integrated domain-specific input data properties (such as arrival time and toggle rates) into the framework. This capability enabled the system to automatically generate optimized designs that account for the specific use-case domain features, thereby ensuring optimal power and performance profiles for target applications.
 
 ## Intel - 2-Month Summer Internship - 2024
-
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Logos/intel_logo.png" title="Intel Logo" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div> -->
 
 The summer between graduating from Imperial and starting my Ph.D. at Georgia Tech I completed a fast-paced internship as part of the numerical hardware team in the GPU group at Intel. The group applies to modern arithemtic and hardware research to compute units withing Intel's advanced GPUs and NPUs, blending hardware and mathematics research and practical engineering.
 
@@ -25,12 +24,6 @@ My primary project focused on automating the optimization of mixed-precision flo
 Despite the limited time, we developed promising ideas that should continue influencing future dot product and multiplier units within Intel GPUs and NPUs. The insights and skills gained from the internship were significant, sparking several hardware automation questions that will undoubtedly influence my PhD research. This experience provided invaluable exposure to industrial practices and challenges, offering a unique perspective that will shape my future work in the field.
 
 ## Quantum Motion Technologies - 6-Month Industrial Placement (CO-OP) - 2023
-
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Logos/QMT.png" title="QMT Logo" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div> -->
 
 Quantum Motion Technologies (QMT) is a quantum computing startup looking to create qubits using electron spin, using classical silicon transistors. I am working on the Integrated Circuits (IC) team where we aim to integrate classical analogue and digital electronics onto silicon chips with quantum elements.
 
