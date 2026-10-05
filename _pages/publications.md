@@ -1,4 +1,5 @@
 ---
+published: false # publications now live on the research page
 layout: page
 permalink: /publications/
 title: Publications

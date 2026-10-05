@@ -169,9 +169,6 @@
 - title: Publications
   type: time_table
   contents:
-    - title: "Lemonade: Automated HLS Design Modularization using E-Graphs"
-      institution: First author. Under review.
-      year: Under review
     - title: "ForgeBench: An HLS Design Generator of Machine Learning Test Suites for Next-Generation HLS Tools"
       institution: Co-first author. Under review at ACM TRETS (FPT 2026 Journal Track). Extends our FCCM 2026 poster.
       year: Under review
@@ -223,7 +220,7 @@
       year: Fall 2022
     - title: Vice-President, Electrical Engineering Society
       institution: Imperial College London
-      year: From Oct 2022
+      year: Oct 2022 – Jul 2023
     - title: Year 2 Academic Representative
       institution: Imperial College London
       year: 2021 – 2022

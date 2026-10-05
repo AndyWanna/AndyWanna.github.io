@@ -5,7 +5,20 @@ permalink: /research/
 description: E-graphs for hardware design automation, from arithmetic expressions to HLS programs to netlists.
 nav: true
 nav_order: 1
+pub_years: [2026, 2025, 2023]
 ---
+
+## Publications {#publications}
+
+<div class="publications">
+{%- for y in page.pub_years %}
+<h3 class="year">{{y}}</h3>
+{% bibliography -f papers -q @*[year={{y}}]* %}
+{% endfor %}
+</div>
+
+Work under review or in preparation is described in the project sections below.
+
 
 ## Georgia Institute of Technology
 
