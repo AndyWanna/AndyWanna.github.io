@@ -1,4 +1,5 @@
 ---
+published: false # hidden: template/coursework leftover, not part of the research site
 layout: page
 permalink: /repositories/
 title: repositories

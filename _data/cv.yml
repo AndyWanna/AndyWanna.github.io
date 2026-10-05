@@ -1,288 +1,292 @@
+# Extended web CV, rendered on /cv/ below the PDF download link.
+# Wording follows latex_cv/main.tex (the source of truth); this version adds detail the
+# three-page PDF has no room for. Keep facts in sync with main.tex when either changes.
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
       value: Andy Wanna
+    - name: Email
+      value: awanna3@gatech.edu
+    - name: Status
+      value: Australian citizen on an F-1 visa; CPT-eligible for U.S. internships
     - name: Spoken Languages
       value: English, Arabic, French
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D of Computer Engineering
-      institution: Georgia Institute of Technology, Georgia, United States
-      year: 2024 - 2029
+    - title: Ph.D. in Electrical and Computer Engineering (4.0 GPA)
+      institution: Georgia Institute of Technology, Atlanta, Georgia, United States
+      year: 2024 – 2028
       description:
-        - title: Year 1
+        - Expected graduation May 2028
+        - Advised by Prof. Callie Hao, SHARC Lab
+        - Ph.D. research funded by AMD as a Graduate Applied Researcher
+        - title: Coursework
           contents:
-            - 4.0 GPA
-        - title: Year 2
-          contents:
-            - 4.0 GPA
-        - title: Relevant Modules
-          contents:
-            - SAT/SMT Solvers (SW)
-            - Internet Architecture and Protocols (SW/HW)
-            - Hardware-Software Co-Design in ML systems (HW/DL) 
-            - Graphical Models in ML (DL)
-            - High Dimensional Statistics and Optimization (DL)
-            - Advanced Programming Techniques (HW/SW)
-    - title: Masters of Engineering (Computer Engineering) - First Class Honors (4.0 GPA)
+            - SAT/SMT Solvers
+            - Programming Languages
+            - Hardware–Software Co-Design for ML Systems
+            - FPGA Programming
+            - Graphical Models in ML
+            - High-Dimensional Statistics and Optimization
+            - Advanced Programming Techniques
+            - Internet Architecture and Protocols
+    - title: M.Eng. in Electronic and Information Engineering, First Class Honours (4.0 GPA equivalent)
       institution: Imperial College London, London, United Kingdom
-      year: 2020 - 2024
+      year: 2020 – 2024
       description:
-        - title: Year 1
-          contents:
-            - First Class Honors (4.0)
-        - title: Year 2
-          contents:
-            - First Class Honors (4.0)
-        - title: Year 3
-          contents:
-            - First Class Honors (4.0)
-            - Dean's List (Top 10% of Year)
-        - title: Year 4
-          contents:
-            - First Class Honors (4.0)
-            - Dean's List (Top 5% of Year)
+        - First Class Honours in every year
+        - Dean's List in third year (top 10%) and fourth year (top 5%)
+        - "M.Eng. thesis: OptINN, supervised by Prof. Wayne Luk and Dr. Ce Guo"
         - title: Relevant Modules
           contents:
-            - Advanced Computer Architecture (HW)
-            - Advanced Deep Learning Systems (HW/DL)
-            - Digital System Design (HW) 
-            - Deep Learning (DL)
-            - Topics in Large Dimensional Data Processing (DL)
-            - Mathematics for Machine Learning (DL)
-            - Financial Signal Processing and Machine Learning (DL)
-            - Probability and Stochastic Processes (DSP/DL)
-            - Computer Vision (DL)
-            - Introduction to Machine Learning (DL) 
-            - Digital Signal Processing (DSP)
-            - Instruction Architectures & Compilers (HW)
-            - Information Processing (HW)
-            - Digital Arithmetic and Computer Architecture (HW)
-            - Operations Research (SW) 
-            - Embedded Systems (SW)
-            - Software Systems (SW)
-            - Discrete Maths (SW)
-            - Programming (SW)
-    - title: International Baccalaureate
-      institution: Dhahran High School, Dhahran, Saudi Arabia
-      year: 2020
-      description:
-        - IB
-        - SAT + SAT Subject tests
+            - Advanced Computer Architecture
+            - Advanced Deep Learning Systems
+            - Digital System Design
+            - Digital Arithmetic and Computer Architecture
+            - Instruction Architectures and Compilers
+            - Deep Learning
+            - Mathematics for Machine Learning
+            - Topics in Large Dimensional Data Processing
+            - Probability and Stochastic Processes
+            - Computer Vision
+            - Digital Signal Processing
+            - Operations Research
+            - Embedded Systems
 
-- title: Technical Experience
+- title: Industry Experience
   type: time_table
   contents:
     - title: Numerical Hardware Engineer Intern
-      institution: AMD, Folsom, California, United Stated of America
-      year: May 2025 - Aug 2025
+      institution: AMD, Numerical Hardware Team
+      year: May 2026 – Aug 2026
       description:
-        - Invented novel integer and constant multiplier architectures, improving both minimum delay and area
-        - Designed E-Graph multiplier framework capturing array creation and reduction design space, enabling exploration of arbitrarily hybrid architectures
-        - Developed methods to automatically generate multipliers optimized to input data properties such as arrival time and toggle rates
+        - Built an e-graph rewriting tool over fully mapped standard-cell netlists, reducing cell count and area; measured figures under NDA
+        - Scaled the flow to production netlists of over 4 million cells, now under evaluation by AMD's IP synthesis team
+        - Extended the ILP extraction to stay tractable at netlist scale, with delay constrained, free, or optimized
 
     - title: Numerical Hardware Engineer Intern
-      institution: Intel, London (Remote), United Kingdom
-      year: Jun 2024 - Aug 2024
+      institution: AMD, Numerical Hardware Team, Folsom, California
+      year: May 2025 – Aug 2025
       description:
-        - Automated mixed-precision floating point multiplier design optimization in Rust using E-Graph
-        - Investigated glitch power minimization in hardware designs using Integer Linear Programming
-        - Explored techniques and methods for optimal dot-product hardware units
+        - Designed integer and constant multiplier architectures that improve both minimum delay and area
+        - Designed an e-graph multiplier framework spanning array generation and reduction, enabling hybrid multiplier architectures
+        - Developed methods to generate multipliers optimized for input properties such as arrival times and toggle rates
 
-    - title: FPGA Engineer Co-Op
-      institution: Quantum Motion Technologies, London, United Kingdom
-      year: Apr 2023 - Oct 2023
+    - title: Numerical Hardware Engineer Intern
+      institution: Intel, Numerical Hardware Team (GPU group), London (remote)
+      year: Jun 2024 – Aug 2024
       description:
-        - Designed and integrated bespoke signal generator into QICK stack for High-Speed Qubit Feedback on an FPGA in System Verilog, using Vivado
-        - Built a high-level, user-friendly software library to interface with and take advantage of optimised FPGA hardware with PYNQ and QICK Python libraries
-        - Programmed an RP2040 to communicate using TCP/IP over ethernet connections in C using the light-weight IP library
-        - Ported functions into C to be used on the RP2040, building an extensive codebase
+        - Automated mixed-precision floating-point multiplier optimization in Rust with e-graphs, improving PPA by up to 10%
+        - Investigated glitch power minimization in hardware designs using integer linear programming
+        - Explored methods for automatic dot-product hardware unit generation
 
-    - title: Analogue and Digital IC Validation Intern
-      institution: Quantum Motion
-      year: Jul 2022 – Oct 2022
+    - title: FPGA Engineering Co-op
+      institution: Quantum Motion, London
+      year: Apr 2023 – Sep 2023
       description:
-        - Automated Data analysis using Python scripting
-        - Devised model predicting transistor threshold voltage based on ring oscillator measurements
-        - Validated operation of ring oscillator hardware on silicon chips
-        - Characterized properties of silicon across a range of chips, at room and cryogenic Temperatures (2K)
-        - Designed low-noise, wide range (1na-10ma), wide-band (100MHz) current sensor schematic and PCB
-    
+        - Designed a bespoke FPGA signal generator for high-speed qubit feedback, integrated into the QICK stack in SystemVerilog with Vivado
+        - Extended QICK with a peak-tracking hardware control loop and improved signal-generator precision and range
+        - Built a Python library on PYNQ and QICK so lab users can drive the FPGA hardware
+        - Programmed an RP2040 microcontroller in C to communicate over TCP/IP on Ethernet using the lwIP library, porting lab functions to it
+
+    - title: Analog and Digital IC Validation Intern
+      institution: Quantum Motion, London
+      year: Jul 2022 – Sep 2022
+      description:
+        - Validated ring oscillators on silicon, analyzing transistor properties at room and cryogenic (2 K) temperatures
+        - Built a model predicting transistor threshold voltage from ring oscillator measurements
+        - Automated data analysis with Python scripting
+        - Designed a low-noise, wide-range (1 nA – 10 mA), wide-band (100 MHz) current sensor schematic and PCB
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: E-Graph Reinforcement Learning Framework
-      institution: Georgia Institute of Technology - AMD - Current Research
-      year: ""
+    - title: "EGGROLL: Reinforcement Learning for E-Graph Exploration"
+      institution: Georgia Institute of Technology and AMD — first author, in preparation; invited demo, ARITH 2026
+      year: Jan 2026 – Present
       description:
-        - Building a generalized RL framework to streamline e-graph exploration, addressing scalability limitations
+        - Building a generalized RL framework to address the scalability limits of equality saturation
+        - "Formulating equality saturation as a decision problem: e-graph as state, rewrite as action, sparse cost reward"
+        - Matching or improving on expressions from exhaustive equality saturation with far smaller e-graphs
+        - Designed to apply to any e-graph framework given a language, rewrite set, analyses, cost function and extraction method; currently driving a netlist rewriting flow, guiding exploration away from e-graph blow-up on large designs
 
-    - title: Hardware Arithmetic Formal Verification in Lean
-      institution: Georgia Institute of Technology - Current Research
-      year: ""
+    - title: "Lemonade: Automated HLS Design Modularization using E-Graphs"
+      institution: Georgia Institute of Technology — first author, under review
+      year: Mar 2025 – Present
       description:
-        - Framework built in Lean to formally verify arithmetic RL designs against a strict bitvector arithmetic DSL
-        - Developed a Yosys-based frontend for Verilog designs alongside the DSL parser, in Rust
-        - Support for SMT-based proofs, parameterized model checks, multiplier verification, and floating point properties
+        - Built an MLIR-based framework that automatically discovers reusable hardware modules across structurally distinct HLS programs, combining e-graphs, anti-unification, and polyhedral analysis
+        - Introduced polyhedral loop-mapping analysis deriving the minimal set of sound loop transformations that expose shared modules, pruning an 8,716M-candidate space to 4,096 designs (0.00005%)
+        - Designed decoupled hardware-oriented cost functions (a hardware impact cost for module extraction and a performance cost for implementation), reusing 38.1% of synthesized hardware across Polybench, GNN layers and transformer encoder blocks
+        - Composed with ScaleHLS for a geo-mean 47.8% lower area at iso-delay and 53.8% fewer cycles at iso-area
+        - Bit-exact equivalence verified in Vitis HLS C simulation; loop-rewrite legality checked with ISL
+        - Early version presented at the EGRAPHS workshop, PLDI 2025
 
-    - title: "Lemonade: Automated HLS Design Modularization using E-Graphs - Primary Co-Author"
+    - title: "ForgeBench: An HLS Design Generator of ML Test Suites for Next-Generation HLS Tools"
+      institution: Georgia Institute of Technology — co-first author, under review at ACM TRETS (FPT 2026 Journal Track); extends our FCCM 2026 poster
+      year: Apr 2025 – Present
+      description:
+        - Built a generator that composes synthesizable HLS C/C++ from a JSON specification over an extensible ML kernel library, so HLS tools can be developed against current ML workloads rather than legacy fixed benchmarks
+        - Generated full model-level designs for ResNet-18/34/50/101/152 and LLaMA-3.1-8B, including a complete 32-layer LLM project spanning prefill and decode, KV-cache, RoPE and attention, validated against a NumPy golden reference
+        - Demonstrated scale with a 12,912-design suite across GEMM, DNN and LLM workloads, with 2,711 designs placed and routed on a ZCU102, all meeting timing
+        - Built a modularization suite with hand-constructed shared-module baselines, plus a portable Catapult HLS backend and HLSFactory integration
+        - Tool-support study across ScaleHLS, HIDA, AutoSA, StreamHLS and Allo; on LLM designs every tool except Allo stops at parsing
+
+    - title: "SpecScore: Quantifying Readability of HLS-Generated RTL Using LLMs"
+      institution: Georgia Institute of Technology — co-first author, in preparation
+      year: May 2026 – Present
+      description:
+        - "Proposed an automated, annotation-free RTL readability metric: the cosine similarity between an HLS C++ specification and its tool-generated RTL in a joint LLM embedding space"
+        - Introduced four strategies for embedding RTL exceeding model context windows, including hierarchical module summarization, validated at 0.95 mean reciprocal rank on PolyBench, MachSuite and CHStone
+
+    - title: Formal Verification of Hardware Arithmetic in Lean
       institution: Georgia Institute of Technology
-      year: ""
+      year: Aug 2025 – Dec 2025
       description:
-        - Developed a framework integrating e-graphs, anti-unification, and polyhedral loop analysis to automatically identify and extract reusable hardware modules from HLS designs
-        - Introduced hardware-aware cost functions to guide module selection and design extraction, enabling scalable reuse across diverse workloads including GEMM, GEMV, and self-attention
-        - Demonstrated up to 99% hardware reuse and significant area reductions across benchmarks, with modularized designs synthesized on FPGA/ASIC flows (Catapult HLS, Vitis HLS)
-        - Presented at PLDI 2025
-        - Under Review
+        - Built a Rust-to-Lean 4 flow verifying RTL arithmetic datapaths against a bitvector DSL specification, translating Verilog via Yosys and AIGER and discharging equivalence with bv_decide and CaDiCaL
+        - Designed a type-explicit arithmetic DSL forcing a bitwidth on every wire, 3.64× more concise than equivalent RTL
+        - Implemented canonical bitwidth reconciliation, mapping hardware's n, m → k operators onto Lean's BitVec
 
-    - title: "ForgeBench: A Machine Learning Benchmark Suite and Auto-Generation Framework - Primary Co-Author"
-      institution: Georgia Institute of Technology 
-      year: ""
+    - title: "OptiMult: Multiplier Optimization via E-Graph Rewriting"
+      institution: Imperial College London, with Intel and UCLA — first author, ASILOMAR 2023
+      year: Nov 2022 – Jun 2023
       description:
-        - An extensible benchmark framework auto-generating HLS ML designs across GEMM, DNN, and LLM workloads
-        - Created a modularized benchmark test suite demonstrating the necessity of architecture-oriented HLS tools
+        - Built an e-graph rewriting tool in Rust on egg that explores equivalent multiplier architectures as local equivalence-preserving rewrites and emits synthesizable Verilog
+        - Introduced a dual row and column representation of AND arrays, and a two-phase optimization with separate rewrite sets and delay cost models per phase to keep gate-level search tractable
+        - Cut latency by up to 46% on squarers and 9% on multipliers against a commercial synthesis tool at TSMC 5nm, with every design formally verified by equivalence checking
 
+    - title: "OptINN: Breaking the Interpretability–Efficiency Trade-off for DNNs on GPUs"
+      institution: Imperial College London — M.Eng. thesis
+      year: Oct 2023 – Jun 2024
+      description:
+        - Designed a prototype-based interpretable architecture that recasts prototype distance as GPU-optimized convolutions with hard-sigmoid activations, for full cuDNN and TensorRT support
+        - Built a toolchain compiling pretrained CNNs into optimized interpretable TensorRT engines, with principled quantize/dequantize node placement and quantization-aware training for INT8
+        - "Showed prototype interpretability resists quantization: I-Score moves under 0.03 from FP32 to INT8 while latency falls up to 84.4%, and MobileNet-V3 runs interpretably in 2.10 ms against 8.35 ms for the original CNN"
 
-    - title: Quantifying and Automating Interpretability for Deep Learning - Final Year Project - Primary Author
+- title: Publications
+  type: time_table
+  contents:
+    - title: "Lemonade: Automated HLS Design Modularization using E-Graphs"
+      institution: First author. Under review.
+      year: Under review
+    - title: "ForgeBench: An HLS Design Generator of Machine Learning Test Suites for Next-Generation HLS Tools"
+      institution: Co-first author. Under review at ACM TRETS (FPT 2026 Journal Track). Extends our FCCM 2026 poster.
+      year: Under review
+    - title: "CRYPTONITE: Scalable Accelerator Design for Cryptographic Primitives and Algorithms"
+      institution: Third author. IEEE ASAP 2025.
+      year: "2025"
+    - title: Multiplier Optimization via E-Graph Rewriting
+      institution: First author. Asilomar Conference on Signals, Systems, and Computers 2023.
+      year: "2023"
+
+- title: Talks and Posters
+  type: time_table
+  contents:
+    - title: Invited demo — EGGROLL
+      institution: ARITH 2026
+      year: "2026"
+    - title: Poster — ForgeBench
+      institution: FCCM 2026, Atlanta
+      year: "2026"
+    - title: Talk — Lemonade (early version)
+      institution: EGRAPHS workshop, PLDI 2025
+      year: "2025"
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - title: AMD Graduate Applied Researcher
+      institution: Ph.D. research funded by an AMD gift and a sponsored research agreement
+      year: 2025 – 2028
+    - title: ACM/IEEE DAC Young Student Fellow
+      year: "2025"
+    - title: Dean's List, Imperial College London
+      institution: Top 10% of cohort in third year, top 5% in fourth
+      year: 2023, 2024
+
+- title: Teaching, Mentoring and Service
+  type: time_table
+  contents:
+    - title: Graduate Teaching Assistant, CS 4240 Compilers
+      institution: Georgia Tech. Delivered a lecture on the MIPS ISA and ran the lab autograder.
+      year: Spring, Fall 2025
+    - title: Reviewer, IEEE Transactions on Computers
+      year: "2026"
+    - title: Mentor to an M.Sc. student
+      institution: Work published at ASAP 2025
+      year: "2025"
+    - title: Teaching Assistant, ELEC40013 Mathematics
       institution: Imperial College London
-      year: Oct 2023 - Jun 2024
-      description:
-        - Designed metric to quantitatively evaluate the interpretability of a deep learning model, enabling trade-off analysis
-        - Developed an automated workflow to add interpretability to CNNs, achieving up to an 84\% inference latency improvement over the manual INN model
-        - Demonstrated comparable interpretability results on standard CNNs with state-of-the-art GradCAM methods
+      year: Fall 2022
+    - title: Vice-President, Electrical Engineering Society
+      institution: Imperial College London
+      year: From Oct 2022
+    - title: Year 2 Academic Representative
+      institution: Imperial College London
+      year: 2021 – 2022
 
-    - title: "OptiMult: Multiplier Optimization via E-Graph Rewriting - Undergraduate Research - Primary Author"
-      institution: Imperial College London - Under
-      year: Oct 2023
-      description:
-        - Created tool in Rust to compile hardware arithmetic expressions into optimized representations for area and latency
-        - Demonstrated up to a 46% latency reduction in squarer circuits and 9% latency reduction in general multiplication against industry standard logic synthesis tools
-        - Presented at ASILOMAR 2023
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Languages
+      items:
+        - Rust, Python, C/C++, SystemVerilog/Verilog, Lean
+        - Also JavaScript (Node.js), SQL
+    - title: EDA tools
+      items:
+        - Design Compiler, Fusion Compiler, JasperGold, VCS, Vitis HLS, Catapult HLS, Yosys, Vivado, Quartus
+    - title: Hardware flows
+      items:
+        - Logic synthesis, formal equivalence checking, static timing analysis, place and route, RTL design, standard-cell and mapped-netlist flows, FPGA prototyping (PYNQ, QICK)
+    - title: Methods
+      items:
+        - E-graphs and equality saturation (egg), MLIR, ILP (Gurobi), SAT/SMT, reinforcement learning, PyTorch, TensorRT
 
-- title: Technical Projects
+- title: Selected Undergraduate Projects
   type: time_table
   contents:
     - title: Deep Learning Activation Function Hardware Accelerators in SystemVerilog
-      year: Jan 2024 - Mar 2024
+      year: Jan 2024 – Mar 2024
       description:
-        - Designed and Verified 4 – 16 bit parameterized implementations of Softmax, LogSigmoid, Sigmoid, ELU, SILU, Softshrink activation functions
-        - Integrated activation functions into a re-configurable, dynamically scheduled hardware architecture
+        - Designed and verified 4–16-bit parameterized implementations of Softmax, LogSigmoid, Sigmoid, ELU, SiLU and Softshrink
+        - Integrated the activation functions into a reconfigurable, dynamically scheduled hardware architecture
 
-    - title: Generative Deep Learning Models in PyTorch
-      year: Jan 2024 - Mar 2024
+    - title: Cosine Accelerator on FPGA
+      year: Feb 2023 – Mar 2023
       description:
-        - Analyzed a VAE transformer architecture on generating and classifying the MNIST dataset
-        - Explored Class Conditional & Wasserstein-GP DCGAN architectures on generating images in the CIFAR-10 dataset
-
-    - title: Cosine Accelerator on FPGA in Verilog
-      year: Feb 2023 - Mar 2023
-      description:
-        - Reduced the output latency of vector function by 77% by implementing custom cosine block on an FPGA using CORDIC in SystemVerilog with Quartus
-        - Designed customized hardware Floating-Point Arithmetic blocks for further speed-ups
-        - Optimized function further via low-level programming in C
-
-    - title: MRI Diagnosis Model using Computer Vision in PyTorch
-      year: Feb 2023 - Mar 2023
-      description:
-      - Implemented U-Net CNN architecture to perform image classification and segmentation on brain scans
+        - Reduced the output latency of a vector function by 77% with a custom CORDIC cosine block in SystemVerilog (Quartus)
+        - Designed custom floating-point arithmetic blocks and optimized further with low-level C
 
     - title: Digital Synthesizer in Embedded C
-      year: Jan 2023 - Mar 2023
+      year: Jan 2023 – Mar 2023
       description:
-        - Programmed an STM32 micro-controller using Multi-Threading in Embedded C
-        - Developed advanced functionality while maintaining thread safety, without affecting latency of sound output
-        - Enabled automatic detection and integration of additional devices to expand the synthesizer's functionality
-        
-    - title: GymBro Embedded Raspberry PI Device
-      year: Jan 2023 - Mar 2023
-      description:
-        - Built a network hosting an AWS server, a Raspberry Pi Client, and MySQL Database
-        - Expanded functionality for multiple concurrent users, using Express.js, Node.js and MySQL
-        - Ensured security by adding user authentication
+        - Programmed an STM32 microcontroller with multi-threading in embedded C, adding features while keeping thread safety and sound-output latency
+        - Enabled automatic detection and integration of additional devices
 
-    - title: Maximized Energy Efficiency of a SuperScalar CPU by varying MicroArchitectural Parameters
+    - title: Energy Efficiency of a Superscalar CPU
       year: Nov 2022
       description:
-        - Varied microarchitectural parameters such as Branch Predictors, Memory Hierarchy, and Instruction Parallelism, investigating their impact on energy usage
+        - Varied microarchitectural parameters (branch predictors, memory hierarchy, instruction parallelism) and measured their impact on energy
 
-    - title: House Price Regression Model in PyTorch
-      year: Nov 2022
-      description:
-        - Designed a regression model using a neural network
-        - Preformed data pre-processing, K-fold hyperparameter validation, early stopping, batched gradient descent and various other ML optimization techniques
-        - Implemented a custom NN training and inference mini library with batched gradient descent, arbitrary layers and custom activation functions
-
-    - title: Webapp for Mars Rover
-      year: May 2022 – Jul 2022
-      description:
-        - Developed backend for webserver using AWS, Node.js and Express.js for communication between the webapp and embedded system on Mars Rover
-        - Designed front-end with HTML/CSS/JavaScript
-        - Utilized MySQL on an AWS instance as a database for the WebApp, to maintain live rover position and data
-
-    - title: C to MIPS Assembly compiler in C++
+    - title: C to MIPS Assembly Compiler in C++
       year: Feb 2022 – Mar 2022
       description:
-        - Object-Oriented compiler
-        - Compiles complex expressions in C such as pointer arithmetic, arrays and advanced function calls
-    
-    - title: Automatic Scheduler in C++
-      year: Jul 2022 – Oct 2022
-      description:
-        - Created software to allocate projects within a set schedule to improve time management in C++
-
-    - title: Video game with FPGA hand-held controller
-      year: Feb 2022 – Mar 2022
-      description:
-        - Instantiated NIOS-II soft-core CPU onto FPGA using Quartus
-        - Programmed FPGA accelerometer functionality and low-level local processing and networking in C with Eclipse
-        - Developed client-side communication with server and user along with advanced signal processing for motion detection in Python
+        - Object-oriented compiler handling pointer arithmetic, arrays and function calls
 
     - title: MIPS 32-bit CPU in Verilog
       year: Nov 2021 – Dec 2021
       description:
-        - MIPS 32-bit CPU written in Icarus Verilog to process standard instructions
-        - Wrote test-benches to systematically test edge cases for each instruction
-    
-    - title: Boolean Algebra Solver in C++
-      year: May 2021
+        - 32-bit MIPS CPU in Verilog with test benches covering edge cases for each instruction
+
+    - title: Generative and Computer Vision Models in PyTorch
+      year: 2023 – 2024
       description:
-        - Programmed tool that could reduce and solve Boolean algebra expressions using trees in C++
+        - U-Net segmentation of brain MRI scans; VAE on MNIST; class-conditional and Wasserstein-GP DCGANs on CIFAR-10
 
-
-- title: Leadership and Team Experiences
-  type: time_table
-  contents:
-    - title: Vice-President of Electrical Engineering Society
-      year: Oct 2022 – Present
-
-    - title: Year 2 Academic Representative
-      year: Oct 2021 – Jun 2022
-
-    - title: Fundraising Officer at Habitat for Humanity
-      year: Aug 2019 – Jun 2020
-
-    - title: President of Robotics Club
-      year: Aug 2018 – Jun 2019
-
-    - title: Founder of BISAK Tutoring Club
-      year: Sept 2016 – Jul 2018
-
-- title: Skills, Strengths and Achievements
-  type: nested_list
-  contents:
-    - title: Proficient in C/C++, Python, Rust, Verilog/SystemVerilog
-    
-    - title: Experienced in JavaScript (NodeJS), SQL, Rust
-
-    - title: Familiar Technologies - AWS, Git, FPGAs, Microcontrollers, TCP/IP, PyTorch, Vivado, Quartus, Eclipse, LTSpice, QICK
-
-    - title: Adept in (written and spoken) English, French, and Arabic
-
-    - title: Completed Math and Further pure maths iGCSE, 2 years early
-
-    - title: Achieved Best delegate at 4 international MUN conferences, chairing 4 further ones
-
+    - title: Web and Embedded Systems Projects
+      year: 2022 – 2023
+      description:
+        - Mars Rover web app (Node.js, Express, MySQL on AWS); GymBro Raspberry Pi device with multi-user backend and authentication; FPGA hand-held game controller with a NIOS-II soft core

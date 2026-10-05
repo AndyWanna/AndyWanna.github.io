@@ -1,4 +1,5 @@
 ---
+published: false # hidden: template/coursework leftover, not part of the research site
 layout: post
 title:  a post with github metadata
 date: 2020-09-28 21:01:00

@@ -2,14 +2,18 @@
 layout: default
 ---
 <!-- _layouts/cv.html -->
+<!-- The PDF (assets/pdf/, built from latex_cv/main.tex) is the CV sent with applications.
+     The cards below, built from _data/cv.yml, are a longer web version. Keep the two in sync. -->
         <div class="post">
 
+          {%- assign cv_url = page.cv_pdf | prepend: 'assets/pdf/' | relative_url -%}
           <header class="post-header">
-            <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+            <h1 class="post-title">{{ page.title }} <a href="{{ cv_url }}" target="_blank" rel="noopener noreferrer" class="float-right" title="Download PDF"><i class="fas fa-file-pdf"></i></a></h1>
             <p class="post-description">{{ page.description }}</p>
           </header>
 
           <article>
+            <p><a class="btn btn-sm z-depth-0" href="{{ cv_url }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> Download the PDF CV</a></p>
             <div class="cv">
               {% for entry in site.data.cv %}
                 <div class="card mt-3 p-3">
@@ -29,7 +33,7 @@ layout: default
                   </div>
                 </div>
               {% endfor %}
-              </div>
+            </div>
           </article>
 
         </div>

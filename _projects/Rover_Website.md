@@ -1,4 +1,5 @@
 ---
+published: false # hidden: template/coursework leftover, not part of the research site
 layout: page
 title: Mars Rover
 description: Autonomous Mars Rover 
@@ -46,4 +47,4 @@ The Command page includes:
 </div>
 <div class="caption">
     Image and video of the Rover in action. The video displays the rover in autonomous mode detecting the 3 aliens and updating them on the map.
-</div>
+</div>

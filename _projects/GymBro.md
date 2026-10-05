@@ -1,4 +1,5 @@
 ---
+published: false # hidden: template/coursework leftover, not part of the research site
 layout: page
 title: Gymbro - Embedded System
 description: Embedded Sytem integrating Raspberry Pi and AWS server

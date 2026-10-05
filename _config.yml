@@ -7,12 +7,12 @@ first_name: Andy
 middle_name: 
 last_name: Wanna
 email: awanna3@gatech.edu
-# description: > # the ">" symbol means to ignore newlines until "footer_text:"
-#   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  Andy Wanna, Ph.D. student at Georgia Tech building e-graph-based tools for hardware design automation.
 # footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-# keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: e-graphs, equality saturation, hardware design automation, EDA, logic synthesis, high-level synthesis, HLS, MLIR, computer arithmetic, Georgia Tech
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -105,7 +105,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Email || Google Scholar || Github || LinkedIn 
+  Email is the best way to reach me.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -271,8 +271,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags wil
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Wanna]
+  first_name: [Andy, A.]
 
   style: apa
   locale: en
@@ -302,7 +302,7 @@ badges: # Display different badges for your publications
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3  # leave blank to always show all authors
+max_author_limit:  # leave blank to always show all authors
 more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
 
 

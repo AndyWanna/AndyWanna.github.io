@@ -1,4 +1,5 @@
 ---
+published: false # hidden: template/coursework leftover, not part of the research site
 layout: page
 title: Simon Says Battle Royale - FPGA Video Game
 description: Multiplayer Video Game using FPGA and input controller

@@ -1,4 +1,5 @@
 ---
+published: false # hidden: template/coursework leftover, not part of the research site
 layout: page
 title: C Compiler
 description: C to MIPS Compiler in C++

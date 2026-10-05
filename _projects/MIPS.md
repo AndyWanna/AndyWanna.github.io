@@ -1,4 +1,5 @@
 ---
+published: false # hidden: template/coursework leftover, not part of the research site
 layout: page
 title: MIPS 32-bit CPU
 description: Simple 32-Bit MIPS CPU in Verilog
