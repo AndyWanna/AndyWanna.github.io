@@ -10,9 +10,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Research Exeperience | Andy  Wanna</title>
+    <title>Research | Andy  Wanna</title>
     <meta name="author" content="Andy  Wanna">
-    <meta name="description" content="Growing resume of research experience">
+    <meta name="description" content="E-graphs for hardware design automation, from arithmetic expressions to HLS programs to netlists.">
+    <meta name="keywords" content="e-graphs, equality saturation, hardware design automation, EDA, logic synthesis, high-level synthesis, HLS, MLIR, computer arithmetic, Georgia Tech">
 
 
     <!-- Bootstrap & MDB -->
@@ -78,10 +79,13 @@
 
               <!-- Other pages -->
               <li class="nav-item active">
-                <a class="nav-link" href="/research/">Research Exeperience<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/research/">Research<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/experience/">Technical Experience</a>
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/experience/">Experience</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/cv/">CV</a>
@@ -115,68 +119,104 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Research Exeperience</h1>
-            <p class="post-description">Growing resume of research experience</p>
+            <h1 class="post-title">Research</h1>
+            <p class="post-description">E-graphs for hardware design automation, from arithmetic expressions to HLS programs to netlists.</p>
           </header>
 
           <article>
-            <h2 id="georgia-insititute-of-technology">Georgia Insititute of Technology</h2>
+            <h2 id="georgia-institute-of-technology">Georgia Institute of Technology</h2>
 
-<h3 id="lemonade--automated-high-level-synthesis-design-modularization-using-e-graphs">Lemonade – Automated High-Level Synthesis Design Modularization using E-Graphs</h3>
+<h3 id="eggroll">EGGROLL: Reinforcement Learning for E-Graph Exploration</h3>
 
-<p>High-Level Synthesis (HLS) tools have revolutionized hardware development for specialized accelerators, but they fundamentally lack support for designing <em>reusable architectures</em>. Every HLS program is currently synthesized into independent hardware, forcing designers to manually engineer any potential sharing across different workloads. This limitation is particularly restrictive in fast-evolving fields like machine learning, where core computational kernels are often shared but require separate, redundant hardware implementations. To bridge this gap, we introduced <strong>Lemonade</strong>, a framework that automatically identifies and modularizes common hardware components across a set of HLS programs, enabling true architectural design directly within the HLS workflow.</p>
+<p><em>Jan 2026 – present · Georgia Tech and AMD · first author, in preparation · invited demo at ARITH 2026</em></p>
 
-<p>The key contributions are:</p>
+<p>Equality saturation is powerful but scales badly: on large designs the e-graph grows faster than it can be explored. EGGROLL treats e-graph exploration as a decision problem. The e-graph is the state, applying a rewrite is an action, and the reward comes from the cost of the expression extracted at the end.</p>
 
 <ul>
-  <li>
-<strong>Automated Modularization</strong>:  We combine hardware-oriented E-Graph exploration with Anti-Unification to automatically identify and extract synthesizable hardware modules from multiple HLS designs.</li>
-  <li>
-<strong>Scalable Loop Transformation</strong>: We integrate polyhedral loop analysis to determine the soundness and optimal reuse opportunities within nested loop structures, making the exploration tractable.</li>
-  <li>
-<strong>Hardware-Aware Extraction</strong>: We propose a decoupled extraction flow using customizable cost functions that prioritize the usefulness (area/delay span) and synthesizability of learned modules over simple code compression.</li>
+  <li>Built as a generic framework: it applies to any e-graph setup given a language, rewrite set, analyses, cost function and extraction method.</li>
+  <li>In early experiments it matches or improves on the expressions found by exhaustive equality saturation while building far smaller e-graphs.</li>
+  <li>It currently drives a netlist rewriting flow, guiding exploration away from e-graph blow-up on large designs.</li>
 </ul>
 
-<p>This work was initially presented at the <em>EGRAPH</em> workshop at <em>PLDI 2025</em> - available <a href="https://www.youtube.com/live/AEbvKbHPRhM?si=D3sPKH6MXOo_Q5H0&amp;t=11214" rel="external nofollow noopener" target="_blank"><strong>HERE</strong></a>!</p>
+<h3 id="lemonade">Lemonade: Automated HLS Design Modularization using E-Graphs</h3>
+
+<p><em>Mar 2025 – present · first author, under review</em></p>
+
+<p>HLS tools synthesize every program into independent hardware, so any sharing across workloads has to be engineered by hand. That is costly in ML, where models keep reusing the same kernels. Lemonade automatically discovers reusable hardware modules across structurally distinct HLS programs.</p>
+
+<ul>
+  <li>An MLIR-based framework combining e-graphs, anti-unification, and polyhedral analysis.</li>
+  <li>Polyhedral loop-mapping analysis derives the minimal set of sound loop transformations that expose shared modules, pruning an 8,716M-candidate space to 4,096 designs.</li>
+  <li>Decoupled hardware-oriented cost functions: a hardware impact cost for module extraction and a performance cost for implementation.</li>
+  <li>Reuses 38.1% of synthesized hardware across Polybench, GNN layers and transformer encoder blocks. Composed with ScaleHLS, it gives a geo-mean 47.8% lower area at iso-delay and 53.8% fewer cycles at iso-area.</li>
+</ul>
+
+<p>An early version was presented at the <a href="https://www.youtube.com/live/AEbvKbHPRhM?si=D3sPKH6MXOo_Q5H0&amp;t=11214" rel="external nofollow noopener" target="_blank">EGRAPHS workshop at PLDI 2025</a> (recording).</p>
+
+<h3 id="forgebench">ForgeBench: An HLS Design Generator of ML Test Suites for Next-Generation HLS Tools</h3>
+
+<p><em>Apr 2025 – present · co-first author, under review at ACM TRETS · extends our FCCM 2026 poster</em></p>
+
+<p>No fixed benchmark suite stays representative as ML workloads change. ForgeBench is a generator instead: it composes synthesizable HLS C/C++ on demand from a JSON specification over an extensible ML kernel library.</p>
+
+<ul>
+  <li>Full model-level designs for the ResNet family and LLaMA-3.1-8B, including a complete 32-layer LLM project covering prefill and decode, KV-cache and attention, validated against a NumPy golden reference.</li>
+  <li>A 12,912-design suite across GEMM, DNN and LLM workloads spanning the area–latency space, with 2,711 designs placed and routed on a ZCU102, all meeting timing.</li>
+  <li>A modularization suite with hand-built shared-module baselines, used to evaluate tools like Lemonade.</li>
+</ul>
+
+<p>Using ForgeBench, we tested how well current HLS frameworks (ScaleHLS, HIDA, AutoSA, StreamHLS and Allo) handle modern ML designs. Support falls off as designs grow. On LLM designs, every tool except Allo stops at parsing.</p>
+
+<p><a href="https://arxiv.org/abs/2504.15185" rel="external nofollow noopener" target="_blank">arXiv</a> · <a href="https://github.com/hchen799/ForgeBench" rel="external nofollow noopener" target="_blank">code</a></p>
+
+<h3 id="specscore">SpecScore: Quantifying Readability of HLS-Generated RTL Using LLMs</h3>
+
+<p><em>May 2026 – present · co-first author, in preparation</em></p>
+
+<p>HLS tools generate RTL that engineers still have to read, debug and verify, but there is no automatic way to measure how readable it is. SpecScore measures how closely tool-generated RTL follows its HLS C++ specification, using cosine similarity in a joint LLM embedding space, with no human annotation.</p>
+
+<ul>
+  <li>Four strategies for embedding RTL that exceeds model context windows, including hierarchical module summarization.</li>
+  <li>Validated at 0.95 mean reciprocal rank on PolyBench, MachSuite and CHStone.</li>
+</ul>
+
+<h3 id="lean">Formal Verification of Hardware Arithmetic in Lean</h3>
+
+<p><em>Aug 2025 – Dec 2025</em></p>
+
+<ul>
+  <li>A Rust-to-Lean 4 flow that verifies RTL arithmetic datapaths against a bitvector DSL specification. Verilog is translated through Yosys and AIGER, and equivalence is discharged with <code class="language-plaintext highlighter-rouge">bv_decide</code> and CaDiCaL.</li>
+  <li>A type-explicit arithmetic DSL that forces a bitwidth on every wire, 3.64× more concise than equivalent RTL.</li>
+  <li>Canonical bitwidth reconciliation, mapping hardware’s n, m → k operators onto Lean’s <code class="language-plaintext highlighter-rouge">BitVec</code>.</li>
+</ul>
 
 <h2 id="imperial-college-london">Imperial College London</h2>
 
-<h3 id="final-year-project--optimizing-interpretable-deep-learning">Final Year Project – Optimizing Interpretable Deep Learning</h3>
+<h3 id="optimult">OptiMult: Multiplier Optimization via E-Graph Rewriting</h3>
 
-<p>I completed my Final Year Masters Thesis under the supervision of Professors Wayne Luk and Ce Guo. I focused on quantifying and automating Interpretability for Deep Learning.</p>
+<p><em>Nov 2022 – Jun 2023 · with Intel and UCLA · first author, ASILOMAR 2023</em></p>
 
-<p>Deep learning, particularly in the form of convolutional neural networks (CNNs), has achieved significant success in applications such as medical imaging and autonomous driving. However, the lack of interpretability in these models has limited their adoption in critical fields where transparency and trust are paramount. This research introduces <strong>OptINN</strong>, an optimized interpretable neural network (INN) architecture, designed to address these challenges by leveraging GPU acceleration and quantization techniques.</p>
-
-<p>The key contributions are:</p>
+<p>With Sam Coward, Theo Drane, Prof. George Constantinides and Prof. Miloš Ercegovac, I built OptiMult, an e-graph rewriting tool in Rust on <code class="language-plaintext highlighter-rouge">egg</code>. It explores equivalent multiplier architectures as local, equivalence-preserving rewrites and emits synthesizable Verilog.</p>
 
 <ul>
-  <li>
-<strong>Quantifying Interpretability</strong>: Introduced a novel metric to quantitatively assess interpretability in deep learning models, enabling an analysis of trade-offs between interpretability, accuracy, and performance.</li>
-  <li>
-<strong>Automated INN Conversion from CNNs</strong>: Developed a generalized method to automatically convert standard CNNs into INNs with minimal performance overhead, using automated acceleration techniques to optimize for GPU execution.</li>
-  <li>
-<strong>Performance Optimization</strong>: Demonstrated significant improvements in inference latency and accuracy. The FP16 MobileNet-V3-based OptINN achieved an 88.83% reduction in latency compared to the ResNet-50 IAIA-BL model while maintaining high interpretability. The Int-8 QAT EfficientNet-V2 OptINN exhibited a 2.17 percentage point increase in top-1 accuracy and an 80.49% latency improvement over comparable models.</li>
+  <li>A dual row and column representation of AND arrays, with a two-phase optimization that uses separate rewrite sets and delay cost models in each phase to keep gate-level search tractable.</li>
+  <li>Found non-standard compressor structures during search.</li>
+  <li>Cut latency by up to 46% on squarers and 9% on multipliers against a commercial synthesis tool at TSMC 5nm, with every design formally verified by equivalence checking.</li>
 </ul>
 
-<h3 id="undergraduate-research--optimult">Undergraduate Research – OptiMult</h3>
+<p><a href="https://ieeexplore.ieee.org/document/10476812" rel="external nofollow noopener" target="_blank">Paper (IEEE Xplore)</a> · <a href="https://arxiv.org/abs/2312.06004" rel="external nofollow noopener" target="_blank">arXiv</a></p>
 
-<p>Throughout my third year at university I have been researching with the Circuits and Systems (CAS) group at Imperial College London, specifically with Ph.D. student Sam Coward, Professor George Constantinids and Professor Emeritus Miloš Ercegovac at UCLA. We investigated the usage of Equivalency Graphs (E-Graphs) in data-path optimization for multiplier circuits.</p>
+<h3 id="optinn">OptINN: Breaking the Interpretability–Efficiency Trade-off for DNNs on GPUs</h3>
 
-<p>Multiplier circuits account for significant resource usage in data-path-dominated circuit designs and RTL designers continue to build bespoke hand-crafted multiplication arrays for their particular application. The construction of an optimized multiplier presents trade-offs between pre-processing to generate a smaller array and array reduction. E-Graphs are crucially able to explore these various tradeoffs efficiently. The goal of this research project is to explore the feasibility of incorporating an E-Graph framework into a HDL compiler/synthesizer that could optimize specific multiplier expressions for either area or latency. The initial proposed e-graph tool developed in Rust - <strong>OptiMult</strong> - has demonstrated latency improvements against standard logic synthesis tools for multiplier expressions.</p>
+<p><em>Oct 2023 – Jun 2024 · M.Eng. thesis, supervised by Prof. Wayne Luk and Dr. Ce Guo</em></p>
 
-<p>The following are some of the main results:</p>
+<p>Interpretable neural networks are usually too slow to deploy where interpretability matters most. OptINN makes prototype-based interpretable networks run efficiently on GPUs.</p>
 
 <ul>
-  <li>Created Rewrite framework in Rust using EGG to express alternative multiplier representations via E-Graph rewrites</li>
-  <li>Demonstrated latency reduction in arithmetic circuits against industry standard logic synthesis tools
-    <ul>
-      <li>46% latency reduction in squarer circuits.</li>
-      <li>9% latency reduction in general multiplier circuits.</li>
-    </ul>
-  </li>
+  <li>A prototype-based architecture that recasts prototype distance as GPU-optimized convolutions with hard-sigmoid activations, giving full cuDNN and TensorRT support.</li>
+  <li>A toolchain that compiles pretrained CNNs into optimized interpretable TensorRT engines, with principled quantize/dequantize node placement and quantization-aware training for INT8.</li>
+  <li>Prototype interpretability holds up under quantization: the interpretability score moves by less than 0.03 from FP32 to INT8 while latency falls by up to 84.4%. MobileNet-V3 runs interpretably in 2.10 ms, against 8.35 ms for the original CNN.</li>
 </ul>
-
-<p>The paper has now been presented at <em>ASILOMAR 2023</em> - available <a href="https://ieeexplore.ieee.org/document/10476812" rel="external nofollow noopener" target="_blank"><strong>HERE</strong></a>!</p>
 
           </article>
 
@@ -188,7 +228,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2025 Andy  Wanna. 
+        © Copyright 2026 Andy  Wanna. 
       </div>
     </footer>
 

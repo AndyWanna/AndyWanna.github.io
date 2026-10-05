@@ -12,7 +12,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Andy  Wanna</title>
     <meta name="author" content="Andy  Wanna">
-    <meta name="description" content="">
+    <meta name="description" content="Andy Wanna, Ph.D. student at Georgia Tech building e-graph-based tools for hardware design automation.
+">
+    <meta name="keywords" content="e-graphs, equality saturation, hardware design automation, EDA, logic synthesis, high-level synthesis, HLS, MLIR, computer arithmetic, Georgia Tech">
 
 
     <!-- Bootstrap & MDB -->
@@ -78,10 +80,13 @@
 
               <!-- Other pages -->
               <li class="nav-item ">
-                <a class="nav-link" href="/research/">Research Exeperience</a>
+                <a class="nav-link" href="/research/">Research</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/experience/">Technical Experience</a>
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/experience/">Experience</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/cv/">CV</a>
@@ -117,7 +122,7 @@
           <h1 class="post-title">
            <span class="font-weight-bold">Andy</span>  Wanna
           </h1>
-          <p class="desc">Georgia Insititue of Technology- Ph.D. in Computer Engineering</p>
+          <p class="desc">Ph.D. student in Electrical and Computer Engineering, Georgia Institute of Technology</p>
         </header>
 
         <article>
@@ -142,22 +147,199 @@
           </div>
 
           <div class="clearfix">
-            <p>Hello, I am Andy Wanna, a second year Ph.D. Student at Georgia Tech working as a research assistant in the SHARC Lab under Professor Callie Hao’s supervision. I graduated with a Masters of Engineering from Imperial College London in 2024. This website serves as a platform to showcase my technical projects and experiences throughout my time at Georgia Tech and Imperial. My current research interests are in hardware design automation and formal methods, with a focus on AI-driven arithmetic datapath flows and HLS. My work examines the intersection of programming languages, machine learning, and hardware design techniques to enhance scalability, correctness, and optimization in next-generation hardware design workflows You can explore these interests in detail through the various projects, work experience, and CV pages. My ultimate career objective is to contribute to the global endeavor of pushing the boundaries of current technology by offering unique, innovative, and accessible ideas and solutions.</p>
+            <p>I am a third-year Ph.D. student at Georgia Tech, advised by Prof. Callie Hao in the SHARC Lab. I build e-graph-based tools for hardware design automation. My Ph.D. is funded by AMD, where I am a Graduate Applied Researcher.</p>
 
-<p>More broadly, some of my hobbies include Formula 1, playing Padel and cooking. More detailed information can be found around the rest of the webpage and feel free to contact me via any of the links below.</p>
+<p>My research applies e-graphs (equivalence graphs) at each level of the hardware design stack. At the expression level, <a href="/research/#optimult">OptiMult</a> optimizes multiplier architectures and was built with Intel and UCLA. At the HLS level, <a href="/research/#lemonade">Lemonade</a> finds reusable hardware modules across HLS programs, and <a href="/research/#forgebench">ForgeBench</a> generates the ML designs used to test HLS tools. At the netlist level, <a href="/experience/#amd-2026">my work at AMD</a> rewrites production standard-cell netlists of over 4 million cells. My current project, <a href="/research/#eggroll">EGGROLL</a>, uses reinforcement learning to guide e-graph exploration so these tools scale to larger designs.</p>
 
-<!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+<p>Before Georgia Tech I completed an M.Eng. in Electronic and Information Engineering at Imperial College London (First Class, 2024). I have interned twice with AMD’s numerical hardware team (2025, 2026), with Intel’s numerical hardware team (2024), and with Quantum Motion, a silicon quantum computing startup in London.</p>
+
+<p><strong>I am looking for research internships for summer 2027</strong> in EDA, logic synthesis, HLS and hardware compilers, and ML for chip design. My CV is <a href="/assets/pdf/Andy_CV.pdf">here</a>, and the best way to reach me is <a href="mailto:awanna3@gatech.edu">awanna3@gatech.edu</a>.</p>
+
+<p>Outside work: Formula 1, padel, and cooking.</p>
 
           </div>
 
           <!-- News -->
-          
+          <h2><a href="/news/" style="color: inherit;">news</a></h2>          <div class="news">
+            <div class="table-responsive" style="max-height: 60vw">
+              <table class="table table-sm table-borderless">
+              
+                <tr>
+                  <th scope="row">Jun 2026</th>
+                  <td>
+                    Invited demo of EGGROLL, reinforcement learning for e-graph exploration, at ARITH 2026.
+
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">May 2026</th>
+                  <td>
+                    Back at AMD for a second summer, working on e-graph rewriting for production standard-cell netlists.
+
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">May 2026</th>
+                  <td>
+                    Presented a ForgeBench poster at FCCM 2026 in Atlanta.
+
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Oct 2025</th>
+                  <td>
+                    Became an AMD Graduate Applied Researcher. AMD now funds my Ph.D. research through 2028.
+
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Jun 2025</th>
+                  <td>
+                    Selected as an ACM/IEEE DAC Young Student Fellow.
+
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
 
           <!-- Latest posts -->
           
 
           <!-- Selected papers -->
+          <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
+          <div class="publications">
+            <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Under review</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="wanna2026lemonade" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Lemonade: Automated HLS Design Modularization using E-Graphs</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Andy Wanna</em>, and  others</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          2026
+        </div>
+        <div class="periodical">
+          First author. Under review.
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
           
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Under review</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="wanna2026forgebench" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">ForgeBench: An HLS Design Generator of Machine Learning Test Suites for Next-Generation HLS Tools</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Andy Wanna</em>, Hanqiu Chen, and Cong Hao</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          2026
+        </div>
+        <div class="periodical">
+          Co-first author, equal contribution with Hanqiu Chen. Under review at ACM TRETS (FPT 2026 Journal Track). Extends our FCCM 2026 poster.
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/2504.15185" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a href="https://github.com/hchen799/ForgeBench" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ASILOMAR</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="wanna2023optimult" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Multiplier Optimization via E-Graph Rewriting</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Andy Wanna</em>, Samuel Coward, Theo Drane, George A. Constantinides, and Miloš D. Ercegovac</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Asilomar Conference on Signals, Systems, and Computers</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="http://arxiv.org/abs/2312.06004" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://ieeexplore.ieee.org/document/10476812" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">wanna2023optimult</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Multiplier Optimization via E-Graph Rewriting}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wanna, Andy and Coward, Samuel and Drane, Theo and Constantinides, George A. and Ercegovac, Milo{\v{s}} D.}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Asilomar Conference on Signals, Systems, and Computers}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+          </div>
+
 
           <!-- Social -->
             <div class="social">
@@ -173,7 +355,7 @@
               </div>
 
               <div class="contact-note">
-                Email || Google Scholar || Github || LinkedIn 
+                Email is the best way to reach me.
 
               </div>
 
@@ -188,7 +370,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2025 Andy  Wanna. 
+        © Copyright 2026 Andy  Wanna. 
       </div>
     </footer>
 
